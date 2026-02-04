@@ -28,7 +28,7 @@ export function TubeEditor({
   onDeleteTube,
   onUpdateTube,
   onSetTubeRow,
-  onAddPiece,
+  onAddPiece: _onAddPiece,
   onRemovePiece,
   toolPalette,
 }: TubeEditorProps) {
