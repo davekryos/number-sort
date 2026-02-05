@@ -6,8 +6,20 @@
       "difficulty": "Beginner",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [2] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -16,9 +28,24 @@
       "difficulty": "Beginner",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [4, 2, 8] },
-        { "capacity": 4, "initialPieces": [2] },
-        { "capacity": 4, "initialPieces": [] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            2,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -27,9 +54,26 @@
       "difficulty": "Beginner",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [16, 8, 2] },
-        { "capacity": 3, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [2] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -38,8 +82,21 @@
       "difficulty": "Beginner",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 3, "initialPieces": [16, 8, 2] },
-        { "capacity": 3, "initialPieces": [4, 2] }
+        {
+          "capacity": 3,
+          "initialPieces": [
+            16,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            2
+          ]
+        }
       ]
     },
     {
@@ -48,9 +105,30 @@
       "difficulty": "Beginner",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [16, 8, 4] },
-        { "capacity": 4, "initialPieces": [16, 4, 2] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        }
       ]
     },
     {
@@ -59,9 +137,30 @@
       "difficulty": "Easy",
       "targetPieceCount": 2,
       "tubes": [
-        { "capacity": 4, "initialPieces": [32, 8, 2] },
-        { "capacity": 4, "initialPieces": [2, 4, 2] },
-        { "capacity": 4, "initialPieces": [16, 4, 2] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            32,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            4,
+            2
+          ]
+        }
       ]
     },
     {
@@ -70,10 +169,38 @@
       "difficulty": "Easy",
       "targetPieceCount": 2,
       "tubes": [
-        { "capacity": 4, "initialPieces": [8, 16, 2] },
-        { "capacity": 4, "initialPieces": [4, 2, 4] },
-        { "capacity": 4, "initialPieces": [2, 16, 8] },
-        { "capacity": 4, "initialPieces": [64, 2, 4] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            64,
+            2,
+            4
+          ]
+        }
       ]
     },
     {
@@ -82,10 +209,35 @@
       "difficulty": "Easy",
       "targetPieceCount": 2,
       "tubes": [
-        { "capacity": 3, "initialPieces": [8, 4, 2] },
-        { "capacity": 3, "initialPieces": [8, 4, 2] },
-        { "capacity": 3, "initialPieces": [32] },
-        { "capacity": 3, "initialPieces": [8, 64] }
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            32
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            64
+          ]
+        }
       ]
     },
     {
@@ -94,10 +246,35 @@
       "difficulty": "Easy",
       "targetPieceCount": 2,
       "tubes": [
-        { "capacity": 4, "initialPieces": [16, 8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4, 8, 32] },
-        { "capacity": 4, "initialPieces": [4, 16, 2] },
-        { "capacity": 2, "initialPieces": [] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 2,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -106,10 +283,32 @@
       "difficulty": "Medium",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [2, 4, 8] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            4,
+            8
+          ]
+        },
+        {
+          "capacity": 2,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 2,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -118,10 +317,32 @@
       "difficulty": "Medium",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [8, 2, 4] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            2,
+            4
+          ]
+        },
+        {
+          "capacity": 2,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 2,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -130,10 +351,37 @@
       "difficulty": "Medium",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [2, 8, 4] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            64,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            8
+          ]
+        }
       ]
     },
     {
@@ -142,9 +390,28 @@
       "difficulty": "Medium",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 3, "initialPieces": [4, 16, 2] },
-        { "capacity": 3, "initialPieces": [8, 2] },
-        { "capacity": 4, "initialPieces": [] }
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            32,
+            4
+          ]
+        }
       ]
     },
     {
@@ -153,9 +420,28 @@
       "difficulty": "Medium",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [8, 2, 4] },
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 3, "initialPieces": [4] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            2,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4
+          ]
+        }
       ]
     },
     {
@@ -164,9 +450,25 @@
       "difficulty": "Medium",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [2, 4, 8, 16] },
-        { "capacity": 4, "initialPieces": [2] },
-        { "capacity": 4, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            4,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -175,10 +477,32 @@
       "difficulty": "Medium",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 3, "initialPieces": [4, 8, 2] },
-        { "capacity": 3, "initialPieces": [8, 4, 2] },
-        { "capacity": 3, "initialPieces": [4] },
-        { "capacity": 4, "initialPieces": [] }
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -187,10 +511,32 @@
       "difficulty": "Medium",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [2, 4, 8] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            4,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -199,9 +545,25 @@
       "difficulty": "Medium",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [2, 4, 8, 16] },
-        { "capacity": 4, "initialPieces": [2] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            4,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -210,10 +572,32 @@
       "difficulty": "Medium",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -222,10 +606,32 @@
       "difficulty": "Medium",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [2, 8, 4] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -234,10 +640,33 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [2, 32, 8, 4] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            32,
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -246,10 +675,33 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [4, 8, 32, 2] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            8,
+            32,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -258,11 +710,42 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [2, 16, 8, 4] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [4, 2] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            16,
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -271,10 +754,34 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [4, 2, 8, 16] },
-        { "capacity": 5, "initialPieces": [8, 16, 4, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            2,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            16,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -283,10 +790,33 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [2, 8, 32, 4] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            32,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -295,10 +825,33 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [8, 4, 2, 32] },
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            4,
+            2,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -307,10 +860,33 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [2, 4, 32, 8] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            4,
+            32,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -319,11 +895,43 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 3, "initialPieces": [4, 16, 2] },
-        { "capacity": 3, "initialPieces": [8, 4, 2] },
-        { "capacity": 3, "initialPieces": [8, 4] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [2] }
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -332,11 +940,43 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [2, 16, 4] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [8, 4] },
-        { "capacity": 3, "initialPieces": [2] }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            16,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -345,10 +985,33 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 3, "initialPieces": [2, 32, 4] },
-        { "capacity": 3, "initialPieces": [8, 4] },
-        { "capacity": 3, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [] }
+        {
+          "capacity": 3,
+          "initialPieces": [
+            2,
+            32,
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -357,11 +1020,46 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [4, 2, 8, 32, 16] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [16, 8, 4, 2] },
-        { "capacity": 4, "initialPieces": [8, 4, 2, 8] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            2,
+            8,
+            32,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2,
+            8
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -370,12 +1068,60 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [2, 8, 4, 32], "row": "top" },
-        { "capacity": 4, "initialPieces": [16, 4, 8, 2], "row": "top" },
-        { "capacity": 4, "initialPieces": [4, 8, 2], "row": "top" },
-        { "capacity": 4, "initialPieces": [8, 4, 2], "row": "bottom" },
-        { "capacity": 4, "initialPieces": [16, 4, 2], "row": "bottom" },
-        { "capacity": 3, "initialPieces": [2], "row": "bottom" }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            4,
+            32
+          ],
+          "row": "top"
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            4,
+            8,
+            2
+          ],
+          "row": "top"
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ],
+          "row": "top"
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ],
+          "row": "bottom"
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            4,
+            2
+          ],
+          "row": "bottom"
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            2
+          ],
+          "row": "bottom"
+        }
       ]
     },
     {
@@ -384,11 +1130,46 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [8, 4, 2, 32, 16] },
-        { "capacity": 4, "initialPieces": [4, 16, 8, 2] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [8, 4, 2, 8] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            4,
+            2,
+            32,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            16,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2,
+            8
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -397,12 +1178,61 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 4, "initialPieces": [2, 4, 16, 8], "row": "top" },
-        { "capacity": 4, "initialPieces": [8, 32, 4, 2], "row": "top" },
-        { "capacity": 4, "initialPieces": [4, 8, 2], "row": "top" },
-        { "capacity": 4, "initialPieces": [8, 4, 2], "row": "bottom" },
-        { "capacity": 4, "initialPieces": [8, 4, 2, 8], "row": "bottom" },
-        { "capacity": 3, "initialPieces": [2], "row": "bottom" }
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            4,
+            16,
+            8
+          ],
+          "row": "top"
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            32,
+            4,
+            2
+          ],
+          "row": "top"
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ],
+          "row": "top"
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ],
+          "row": "bottom"
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2,
+            8
+          ],
+          "row": "bottom"
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            2
+          ],
+          "row": "bottom"
+        }
       ]
     },
     {
@@ -411,11 +1241,46 @@
       "difficulty": "Hard",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [4, 8, 2, 16, 32] },
-        { "capacity": 4, "initialPieces": [8, 4, 2, 16] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [8, 4, 2, 8] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            8,
+            2,
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2,
+            8
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -424,11 +1289,43 @@
       "difficulty": "Expert",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [2, 8, 64, 4, 16] },
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4, 2] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            8,
+            64,
+            4,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -437,11 +1334,43 @@
       "difficulty": "Expert",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [4, 2, 64, 8, 16] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [4, 2] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            2,
+            64,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -450,10 +1379,36 @@
       "difficulty": "Expert",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [32, 2, 64] },
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 3, "initialPieces": [2] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            2,
+            64
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -462,9 +1417,27 @@
       "difficulty": "Expert",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 6, "initialPieces": [2, 4, 64, 8, 16, 32] },
-        { "capacity": 4, "initialPieces": [2] },
-        { "capacity": 4, "initialPieces": [] }
+        {
+          "capacity": 6,
+          "initialPieces": [
+            2,
+            4,
+            64,
+            8,
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -473,10 +1446,34 @@
       "difficulty": "Expert",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [4, 64, 2, 8, 32] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            64,
+            2,
+            8,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -485,10 +1482,34 @@
       "difficulty": "Expert",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [2, 32, 4, 64, 8] },
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            32,
+            4,
+            64,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -497,10 +1518,34 @@
       "difficulty": "Expert",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [2, 64, 8, 4, 32] },
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            64,
+            8,
+            4,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -509,11 +1554,40 @@
       "difficulty": "Expert",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 3, "initialPieces": [2, 64, 4] },
-        { "capacity": 3, "initialPieces": [8, 32, 2] },
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [2] },
-        { "capacity": 4, "initialPieces": [] }
+        {
+          "capacity": 3,
+          "initialPieces": [
+            2,
+            64,
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            32,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -522,10 +1596,34 @@
       "difficulty": "Expert",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [8, 2, 64, 4, 32] },
-        { "capacity": 4, "initialPieces": [4, 8, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            2,
+            64,
+            4,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -534,10 +1632,34 @@
       "difficulty": "Expert",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 5, "initialPieces": [4, 8, 64, 2, 32] },
-        { "capacity": 4, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            8,
+            64,
+            2,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -546,10 +1668,37 @@
       "difficulty": "Master",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 6, "initialPieces": [2, 4, 128, 16, 32, 8] },
-        { "capacity": 5, "initialPieces": [8, 32, 4, 2, 16] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 4, "initialPieces": [] }
+        {
+          "capacity": 6,
+          "initialPieces": [
+            2,
+            4,
+            128,
+            16,
+            32,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            32,
+            4,
+            2,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -558,10 +1707,37 @@
       "difficulty": "Master",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 6, "initialPieces": [4, 2, 8, 128, 32, 16] },
-        { "capacity": 5, "initialPieces": [8, 16, 4, 2, 32] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 4, "initialPieces": [] }
+        {
+          "capacity": 6,
+          "initialPieces": [
+            4,
+            2,
+            8,
+            128,
+            32,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            16,
+            4,
+            2,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -570,10 +1746,37 @@
       "difficulty": "Master",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 6, "initialPieces": [2, 128, 4, 32, 8, 16] },
-        { "capacity": 5, "initialPieces": [4, 8, 2, 16, 32] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 4, "initialPieces": [] }
+        {
+          "capacity": 6,
+          "initialPieces": [
+            2,
+            128,
+            4,
+            32,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            8,
+            2,
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -582,10 +1785,37 @@
       "difficulty": "Master",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 6, "initialPieces": [8, 4, 2, 32, 128, 16] },
-        { "capacity": 5, "initialPieces": [2, 16, 8, 4, 32] },
-        { "capacity": 4, "initialPieces": [4] },
-        { "capacity": 4, "initialPieces": [] }
+        {
+          "capacity": 6,
+          "initialPieces": [
+            8,
+            4,
+            2,
+            32,
+            128,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            16,
+            8,
+            4,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
       ]
     },
     {
@@ -594,11 +1824,45 @@
       "difficulty": "Grandmaster",
       "targetPieceCount": 1,
       "tubes": [
-        { "capacity": 6, "initialPieces": [2, 8, 128, 4, 32] },
-        { "capacity": 5, "initialPieces": [4, 32, 2, 16, 8] },
-        { "capacity": 5, "initialPieces": [8, 4, 2] },
-        { "capacity": 4, "initialPieces": [4, 2] },
-        { "capacity": 3, "initialPieces": [] }
+        {
+          "capacity": 6,
+          "initialPieces": [
+            2,
+            8,
+            128,
+            4,
+            32
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            32,
+            2,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        }
       ]
     }
   ]

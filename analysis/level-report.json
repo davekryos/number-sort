@@ -1,0 +1,4046 @@
+[
+  {
+    "level": {
+      "id": 1,
+      "name": "First Steps",
+      "difficulty": "Beginner",
+      "targetPieceCount": 1,
+      "tubeCount": 2
+    },
+    "structural": {
+      "tubeCount": 2,
+      "emptyTubeCount": 0,
+      "totalPieces": 4,
+      "totalCapacity": 8,
+      "fillRatio": 0.5,
+      "emptySlots": 4,
+      "uniqueValues": [
+        2,
+        4,
+        8
+      ],
+      "valueCount": 3,
+      "capacityVariance": 0,
+      "totalValue": 16,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.25,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 0,
+      "maxBlockingDepth": 0,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 0,
+      "totalMergePairs": 1
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 1,
+      "totalMerges": 1,
+      "totalChainReactions": 1,
+      "longestChain": 3,
+      "movesPerMerge": 1,
+      "movesPerChain": 1
+    },
+    "branching": {
+      "avgBranchingFactor": 2,
+      "maxBranchingFactor": 2,
+      "decisionPointRatio": 1,
+      "deadEndCount": 0,
+      "deadEndRatio": 0,
+      "totalStatesExplored": 1,
+      "uniqueStatesReached": 3
+    },
+    "solverResult": {
+      "levelId": 1,
+      "solvable": true,
+      "optimalMoves": 1,
+      "totalStatesExplored": 1,
+      "uniqueStatesReached": 3,
+      "maxDepthReached": 1,
+      "deadEndCount": 0,
+      "maxBranchingFactor": 2,
+      "avgBranchingFactor": 2,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 1
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "NO_TRAPS",
+      "CHAIN_INFLATION",
+      "UNIFORM_CAPACITY",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 22,
+      "tier": "easy",
+      "structuralScore": 22.6,
+      "solutionScore": 0,
+      "strategicScore": 38
+    }
+  },
+  {
+    "level": {
+      "id": 2,
+      "name": "Blocked Path",
+      "difficulty": "Beginner",
+      "targetPieceCount": 1,
+      "tubeCount": 3
+    },
+    "structural": {
+      "tubeCount": 3,
+      "emptyTubeCount": 1,
+      "totalPieces": 4,
+      "totalCapacity": 12,
+      "fillRatio": 0.3333333333333333,
+      "emptySlots": 8,
+      "uniqueValues": [
+        2,
+        4,
+        8
+      ],
+      "valueCount": 3,
+      "capacityVariance": 0,
+      "totalValue": 16,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.25,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1,
+      "maxBlockingDepth": 1,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 1,
+      "totalMergePairs": 1
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 3,
+      "totalMerges": 2,
+      "totalChainReactions": 1,
+      "longestChain": 2,
+      "movesPerMerge": 1.5,
+      "movesPerChain": 3
+    },
+    "branching": {
+      "avgBranchingFactor": 1.3333333333333333,
+      "maxBranchingFactor": 4,
+      "decisionPointRatio": 0.3333333333333333,
+      "deadEndCount": 2,
+      "deadEndRatio": 0.3333333333333333,
+      "totalStatesExplored": 6,
+      "uniqueStatesReached": 9
+    },
+    "solverResult": {
+      "levelId": 2,
+      "solvable": true,
+      "optimalMoves": 3,
+      "totalStatesExplored": 6,
+      "uniqueStatesReached": 9,
+      "maxDepthReached": 3,
+      "deadEndCount": 2,
+      "maxBranchingFactor": 4,
+      "avgBranchingFactor": 1.3333333333333333,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 2
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "UNIFORM_CAPACITY",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 15.4,
+      "tier": "easy",
+      "structuralScore": 0,
+      "solutionScore": 12.3,
+      "strategicScore": 29.3
+    }
+  },
+  {
+    "level": {
+      "id": 3,
+      "name": "Chain Reaction",
+      "difficulty": "Beginner",
+      "targetPieceCount": 1,
+      "tubeCount": 3
+    },
+    "structural": {
+      "tubeCount": 3,
+      "emptyTubeCount": 0,
+      "totalPieces": 5,
+      "totalCapacity": 10,
+      "fillRatio": 0.5,
+      "emptySlots": 5,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.22222222222222224,
+      "totalValue": 32,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.2,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 0,
+      "maxBlockingDepth": 0,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 0,
+      "totalMergePairs": 1
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 2,
+      "totalMerges": 2,
+      "totalChainReactions": 1,
+      "longestChain": 3,
+      "movesPerMerge": 1,
+      "movesPerChain": 2
+    },
+    "branching": {
+      "avgBranchingFactor": 1.5,
+      "maxBranchingFactor": 4,
+      "decisionPointRatio": 0.25,
+      "deadEndCount": 1,
+      "deadEndRatio": 0.25,
+      "totalStatesExplored": 4,
+      "uniqueStatesReached": 7
+    },
+    "solverResult": {
+      "levelId": 3,
+      "solvable": true,
+      "optimalMoves": 2,
+      "totalStatesExplored": 4,
+      "uniqueStatesReached": 7,
+      "maxDepthReached": 2,
+      "deadEndCount": 1,
+      "maxBranchingFactor": 4,
+      "avgBranchingFactor": 1.5,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 1
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 18.2,
+      "tier": "easy",
+      "structuralScore": 27,
+      "solutionScore": 7.4,
+      "strategicScore": 19.6
+    }
+  },
+  {
+    "level": {
+      "id": 4,
+      "name": "Capacity Intro",
+      "difficulty": "Beginner",
+      "targetPieceCount": 1,
+      "tubeCount": 2
+    },
+    "structural": {
+      "tubeCount": 2,
+      "emptyTubeCount": 0,
+      "totalPieces": 5,
+      "totalCapacity": 6,
+      "fillRatio": 0.8333333333333334,
+      "emptySlots": 1,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0,
+      "totalValue": 32,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.2,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 0,
+      "maxBlockingDepth": 0,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 0,
+      "totalMergePairs": 1
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 2,
+      "totalMerges": 2,
+      "totalChainReactions": 2,
+      "longestChain": 2,
+      "movesPerMerge": 1,
+      "movesPerChain": 1
+    },
+    "branching": {
+      "avgBranchingFactor": 1.5,
+      "maxBranchingFactor": 2,
+      "decisionPointRatio": 0.5,
+      "deadEndCount": 0,
+      "deadEndRatio": 0,
+      "totalStatesExplored": 2,
+      "uniqueStatesReached": 4
+    },
+    "solverResult": {
+      "levelId": 4,
+      "solvable": true,
+      "optimalMoves": 2,
+      "totalStatesExplored": 2,
+      "uniqueStatesReached": 4,
+      "maxDepthReached": 2,
+      "deadEndCount": 0,
+      "maxBranchingFactor": 2,
+      "avgBranchingFactor": 1.5,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 1
+    },
+    "issues": [
+      "TOO_SHORT",
+      "NO_TRAPS",
+      "LINEAR_PATH",
+      "CHAIN_INFLATION",
+      "UNIFORM_CAPACITY",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 25.1,
+      "tier": "easy",
+      "structuralScore": 58,
+      "solutionScore": 5.2,
+      "strategicScore": 15.3
+    }
+  },
+  {
+    "level": {
+      "id": 5,
+      "name": "Double Chain",
+      "difficulty": "Beginner",
+      "targetPieceCount": 1,
+      "tubeCount": 3
+    },
+    "structural": {
+      "tubeCount": 3,
+      "emptyTubeCount": 0,
+      "totalPieces": 9,
+      "totalCapacity": 13,
+      "fillRatio": 0.6923076923076923,
+      "emptySlots": 4,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.22222222222222224,
+      "totalValue": 64,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.1111111111111111,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.8333333333333333,
+      "maxBlockingDepth": 4,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 5,
+      "totalMergePairs": 6
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 4,
+      "totalMerges": 3,
+      "totalChainReactions": 3,
+      "longestChain": 3,
+      "movesPerMerge": 1.3333333333333333,
+      "movesPerChain": 1.3333333333333333
+    },
+    "branching": {
+      "avgBranchingFactor": 1.2142857142857142,
+      "maxBranchingFactor": 4,
+      "decisionPointRatio": 0.42857142857142855,
+      "deadEndCount": 6,
+      "deadEndRatio": 0.42857142857142855,
+      "totalStatesExplored": 14,
+      "uniqueStatesReached": 18
+    },
+    "solverResult": {
+      "levelId": 5,
+      "solvable": true,
+      "optimalMoves": 4,
+      "totalStatesExplored": 14,
+      "uniqueStatesReached": 18,
+      "maxDepthReached": 4,
+      "deadEndCount": 6,
+      "maxBranchingFactor": 4,
+      "avgBranchingFactor": 1.2142857142857142,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 6
+    },
+    "issues": [
+      "TOO_SHORT",
+      "LINEAR_PATH",
+      "CHAIN_INFLATION",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 40.8,
+      "tier": "medium",
+      "structuralScore": 58.2,
+      "solutionScore": 19,
+      "strategicScore": 44.2
+    }
+  },
+  {
+    "level": {
+      "id": 6,
+      "name": "Tower Block",
+      "difficulty": "Easy",
+      "targetPieceCount": 2,
+      "tubeCount": 3
+    },
+    "structural": {
+      "tubeCount": 3,
+      "emptyTubeCount": 0,
+      "totalPieces": 9,
+      "totalCapacity": 12,
+      "fillRatio": 0.75,
+      "emptySlots": 3,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0,
+      "totalValue": 72,
+      "theoreticalMin": 2,
+      "reductionRatio": 0.2222222222222222,
+      "targetPieceCount": 2
+    },
+    "blocking": {
+      "avgBlockingDepth": 1,
+      "maxBlockingDepth": 2,
+      "mergePairsAccessible": 3,
+      "mergePairsBlocked": 3,
+      "totalMergePairs": 6
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalMerges": 4,
+      "totalChainReactions": 3,
+      "longestChain": 2,
+      "movesPerMerge": 1.25,
+      "movesPerChain": 1.6666666666666667
+    },
+    "branching": {
+      "avgBranchingFactor": 1.4047619047619047,
+      "maxBranchingFactor": 6,
+      "decisionPointRatio": 0.40476190476190477,
+      "deadEndCount": 11,
+      "deadEndRatio": 0.2619047619047619,
+      "totalStatesExplored": 42,
+      "uniqueStatesReached": 60
+    },
+    "solverResult": {
+      "levelId": 6,
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalStatesExplored": 42,
+      "uniqueStatesReached": 60,
+      "maxDepthReached": 5,
+      "deadEndCount": 11,
+      "maxBranchingFactor": 6,
+      "avgBranchingFactor": 1.4047619047619047,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 17
+    },
+    "issues": [
+      "TOO_SHORT",
+      "LINEAR_PATH",
+      "CHAIN_INFLATION",
+      "UNIFORM_CAPACITY",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 35.9,
+      "tier": "medium",
+      "structuralScore": 50.5,
+      "solutionScore": 26.9,
+      "strategicScore": 31.6
+    }
+  },
+  {
+    "level": {
+      "id": 7,
+      "name": "Three Way",
+      "difficulty": "Easy",
+      "targetPieceCount": 2,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 0,
+      "totalPieces": 12,
+      "totalCapacity": 16,
+      "fillRatio": 0.75,
+      "emptySlots": 4,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        64
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0,
+      "totalValue": 132,
+      "theoreticalMin": 2,
+      "reductionRatio": 0.16666666666666666,
+      "targetPieceCount": 2
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.8,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 9,
+      "totalMergePairs": 10
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 8,
+      "totalMerges": 8,
+      "totalChainReactions": 2,
+      "longestChain": 2,
+      "movesPerMerge": 1,
+      "movesPerChain": 4
+    },
+    "branching": {
+      "avgBranchingFactor": 1.5099415204678364,
+      "maxBranchingFactor": 9,
+      "decisionPointRatio": 0.3900584795321637,
+      "deadEndCount": 531,
+      "deadEndRatio": 0.3105263157894737,
+      "totalStatesExplored": 1710,
+      "uniqueStatesReached": 2583
+    },
+    "solverResult": {
+      "levelId": 7,
+      "solvable": true,
+      "optimalMoves": 8,
+      "totalStatesExplored": 1710,
+      "uniqueStatesReached": 2583,
+      "maxDepthReached": 8,
+      "deadEndCount": 531,
+      "maxBranchingFactor": 9,
+      "avgBranchingFactor": 1.5099415204678364,
+      "timeMs": 8,
+      "timedOut": false,
+      "decisionPoints": 667
+    },
+    "issues": [
+      "LINEAR_PATH",
+      "UNIFORM_CAPACITY",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 50.2,
+      "tier": "medium",
+      "structuralScore": 59,
+      "solutionScore": 52.9,
+      "strategicScore": 41.5
+    }
+  },
+  {
+    "level": {
+      "id": 8,
+      "name": "Narrow Buffer",
+      "difficulty": "Easy",
+      "targetPieceCount": 2,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 0,
+      "totalPieces": 9,
+      "totalCapacity": 12,
+      "fillRatio": 0.75,
+      "emptySlots": 3,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32,
+        64
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0,
+      "totalValue": 132,
+      "theoreticalMin": 2,
+      "reductionRatio": 0.2222222222222222,
+      "targetPieceCount": 2
+    },
+    "blocking": {
+      "avgBlockingDepth": 2.4,
+      "maxBlockingDepth": 4,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 4,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalMerges": 4,
+      "totalChainReactions": 3,
+      "longestChain": 2,
+      "movesPerMerge": 2.25,
+      "movesPerChain": 3
+    },
+    "branching": {
+      "avgBranchingFactor": 1.2391304347826086,
+      "maxBranchingFactor": 6,
+      "decisionPointRatio": 0.32065217391304346,
+      "deadEndCount": 62,
+      "deadEndRatio": 0.33695652173913043,
+      "totalStatesExplored": 184,
+      "uniqueStatesReached": 229
+    },
+    "solverResult": {
+      "levelId": 8,
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalStatesExplored": 184,
+      "uniqueStatesReached": 229,
+      "maxDepthReached": 9,
+      "deadEndCount": 62,
+      "maxBranchingFactor": 6,
+      "avgBranchingFactor": 1.2391304347826086,
+      "timeMs": 1,
+      "timedOut": false,
+      "decisionPoints": 59
+    },
+    "issues": [
+      "LINEAR_PATH",
+      "UNIFORM_CAPACITY",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 45.6,
+      "tier": "medium",
+      "structuralScore": 50.5,
+      "solutionScore": 47.3,
+      "strategicScore": 40.7
+    }
+  },
+  {
+    "level": {
+      "id": 9,
+      "name": "Asymmetric",
+      "difficulty": "Easy",
+      "targetPieceCount": 2,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 10,
+      "totalCapacity": 14,
+      "fillRatio": 0.7142857142857143,
+      "emptySlots": 4,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.75,
+      "totalValue": 96,
+      "theoreticalMin": 2,
+      "reductionRatio": 0.2,
+      "targetPieceCount": 2
+    },
+    "blocking": {
+      "avgBlockingDepth": 2.8333333333333335,
+      "maxBlockingDepth": 4,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 5,
+      "totalMergePairs": 6
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 7,
+      "totalMerges": 5,
+      "totalChainReactions": 2,
+      "longestChain": 3,
+      "movesPerMerge": 1.4,
+      "movesPerChain": 3.5
+    },
+    "branching": {
+      "avgBranchingFactor": 1.4188790560471976,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.35988200589970504,
+      "deadEndCount": 97,
+      "deadEndRatio": 0.2861356932153392,
+      "totalStatesExplored": 339,
+      "uniqueStatesReached": 482
+    },
+    "solverResult": {
+      "levelId": 9,
+      "solvable": true,
+      "optimalMoves": 7,
+      "totalStatesExplored": 339,
+      "uniqueStatesReached": 482,
+      "maxDepthReached": 7,
+      "deadEndCount": 97,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.4188790560471976,
+      "timeMs": 1,
+      "timedOut": false,
+      "decisionPoints": 122
+    },
+    "issues": [
+      "TOO_SHORT",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 45.8,
+      "tier": "medium",
+      "structuralScore": 49.7,
+      "solutionScore": 42.6,
+      "strategicScore": 45.2
+    }
+  },
+  {
+    "level": {
+      "id": 10,
+      "name": "Buried Treasure",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 7,
+      "totalCapacity": 12,
+      "fillRatio": 0.5833333333333334,
+      "emptySlots": 5,
+      "uniqueValues": [
+        2,
+        4,
+        8
+      ],
+      "valueCount": 3,
+      "capacityVariance": 1,
+      "totalValue": 32,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.14285714285714285,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.8,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 5,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 7,
+      "totalMerges": 6,
+      "totalChainReactions": 0,
+      "longestChain": 1,
+      "movesPerMerge": 1.1666666666666667,
+      "movesPerChain": 7
+    },
+    "branching": {
+      "avgBranchingFactor": 1.07035175879397,
+      "maxBranchingFactor": 6,
+      "decisionPointRatio": 0.2914572864321608,
+      "deadEndCount": 89,
+      "deadEndRatio": 0.4472361809045226,
+      "totalStatesExplored": 199,
+      "uniqueStatesReached": 214
+    },
+    "solverResult": {
+      "levelId": 10,
+      "solvable": true,
+      "optimalMoves": 7,
+      "totalStatesExplored": 199,
+      "uniqueStatesReached": 214,
+      "maxDepthReached": 7,
+      "deadEndCount": 89,
+      "maxBranchingFactor": 6,
+      "avgBranchingFactor": 1.07035175879397,
+      "timeMs": 1,
+      "timedOut": false,
+      "decisionPoints": 58
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 39.2,
+      "tier": "medium",
+      "structuralScore": 41.8,
+      "solutionScore": 40.4,
+      "strategicScore": 36.3
+    }
+  },
+  {
+    "level": {
+      "id": 11,
+      "name": "Deep Dig",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 7,
+      "totalCapacity": 10,
+      "fillRatio": 0.7,
+      "emptySlots": 3,
+      "uniqueValues": [
+        2,
+        4,
+        8
+      ],
+      "valueCount": 3,
+      "capacityVariance": 0.25,
+      "totalValue": 32,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.14285714285714285,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.6,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 4,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalMerges": 5,
+      "totalChainReactions": 1,
+      "longestChain": 2,
+      "movesPerMerge": 1,
+      "movesPerChain": 5
+    },
+    "branching": {
+      "avgBranchingFactor": 1.5185185185185186,
+      "maxBranchingFactor": 5,
+      "decisionPointRatio": 0.3888888888888889,
+      "deadEndCount": 11,
+      "deadEndRatio": 0.2037037037037037,
+      "totalStatesExplored": 54,
+      "uniqueStatesReached": 83
+    },
+    "solverResult": {
+      "levelId": 11,
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalStatesExplored": 54,
+      "uniqueStatesReached": 83,
+      "maxDepthReached": 5,
+      "deadEndCount": 11,
+      "maxBranchingFactor": 5,
+      "avgBranchingFactor": 1.5185185185185186,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 21
+    },
+    "issues": [
+      "TOO_SHORT",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 39.2,
+      "tier": "medium",
+      "structuralScore": 54.8,
+      "solutionScore": 28,
+      "strategicScore": 36
+    }
+  },
+  {
+    "level": {
+      "id": 12,
+      "name": "Triple Lock",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 0,
+      "totalPieces": 11,
+      "totalCapacity": 15,
+      "fillRatio": 0.7333333333333333,
+      "emptySlots": 4,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        64
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.1875,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.09090909090909091,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.5,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 9,
+      "totalMergePairs": 10
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalMerges": 4,
+      "totalChainReactions": 4,
+      "longestChain": 3,
+      "movesPerMerge": 1.25,
+      "movesPerChain": 1.25
+    },
+    "branching": {
+      "avgBranchingFactor": 2.1040462427745665,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.6127167630057804,
+      "deadEndCount": 66,
+      "deadEndRatio": 0.1907514450867052,
+      "totalStatesExplored": 346,
+      "uniqueStatesReached": 729
+    },
+    "solverResult": {
+      "levelId": 12,
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalStatesExplored": 346,
+      "uniqueStatesReached": 729,
+      "maxDepthReached": 5,
+      "deadEndCount": 66,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 2.1040462427745665,
+      "timeMs": 1,
+      "timedOut": false,
+      "decisionPoints": 212
+    },
+    "issues": [
+      "TOO_SHORT",
+      "CHAIN_INFLATION",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 51.3,
+      "tier": "medium",
+      "structuralScore": 66.1,
+      "solutionScore": 35.6,
+      "strategicScore": 52.1
+    }
+  },
+  {
+    "level": {
+      "id": 13,
+      "name": "Tight Quarters",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubeCount": 3
+    },
+    "structural": {
+      "tubeCount": 3,
+      "emptyTubeCount": 0,
+      "totalPieces": 7,
+      "totalCapacity": 9,
+      "fillRatio": 0.7777777777777778,
+      "emptySlots": 2,
+      "uniqueValues": [
+        2,
+        4,
+        16,
+        32
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0,
+      "totalValue": 64,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.14285714285714285,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.5,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 3,
+      "totalMergePairs": 4
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalMerges": 3,
+      "totalChainReactions": 3,
+      "longestChain": 2,
+      "movesPerMerge": 1.6666666666666667,
+      "movesPerChain": 1.6666666666666667
+    },
+    "branching": {
+      "avgBranchingFactor": 1.3076923076923077,
+      "maxBranchingFactor": 4,
+      "decisionPointRatio": 0.23076923076923078,
+      "deadEndCount": 3,
+      "deadEndRatio": 0.23076923076923078,
+      "totalStatesExplored": 13,
+      "uniqueStatesReached": 18
+    },
+    "solverResult": {
+      "levelId": 13,
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalStatesExplored": 13,
+      "uniqueStatesReached": 18,
+      "maxDepthReached": 5,
+      "deadEndCount": 3,
+      "maxBranchingFactor": 4,
+      "avgBranchingFactor": 1.3076923076923077,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 3
+    },
+    "issues": [
+      "TOO_SHORT",
+      "LINEAR_PATH",
+      "CHAIN_INFLATION",
+      "UNIFORM_CAPACITY",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 36.8,
+      "tier": "medium",
+      "structuralScore": 62.2,
+      "solutionScore": 22.3,
+      "strategicScore": 28.5
+    }
+  },
+  {
+    "level": {
+      "id": 14,
+      "name": "Scattered Seeds",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubeCount": 3
+    },
+    "structural": {
+      "tubeCount": 3,
+      "emptyTubeCount": 0,
+      "totalPieces": 7,
+      "totalCapacity": 11,
+      "fillRatio": 0.6363636363636364,
+      "emptySlots": 4,
+      "uniqueValues": [
+        2,
+        4,
+        8
+      ],
+      "valueCount": 3,
+      "capacityVariance": 0.22222222222222224,
+      "totalValue": 32,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.14285714285714285,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.6,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 4,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalMerges": 5,
+      "totalChainReactions": 1,
+      "longestChain": 2,
+      "movesPerMerge": 1,
+      "movesPerChain": 5
+    },
+    "branching": {
+      "avgBranchingFactor": 1.4642857142857142,
+      "maxBranchingFactor": 4,
+      "decisionPointRatio": 0.4642857142857143,
+      "deadEndCount": 8,
+      "deadEndRatio": 0.2857142857142857,
+      "totalStatesExplored": 28,
+      "uniqueStatesReached": 42
+    },
+    "solverResult": {
+      "levelId": 14,
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalStatesExplored": 28,
+      "uniqueStatesReached": 42,
+      "maxDepthReached": 5,
+      "deadEndCount": 8,
+      "maxBranchingFactor": 4,
+      "avgBranchingFactor": 1.4642857142857142,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 13
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 38.2,
+      "tier": "medium",
+      "structuralScore": 48,
+      "solutionScore": 25.3,
+      "strategicScore": 40.5
+    }
+  },
+  {
+    "level": {
+      "id": 15,
+      "name": "Inverted Stack",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubeCount": 3
+    },
+    "structural": {
+      "tubeCount": 3,
+      "emptyTubeCount": 1,
+      "totalPieces": 5,
+      "totalCapacity": 13,
+      "fillRatio": 0.38461538461538464,
+      "emptySlots": 8,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.22222222222222224,
+      "totalValue": 32,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.2,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 3,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 1,
+      "totalMergePairs": 1
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalMerges": 2,
+      "totalChainReactions": 1,
+      "longestChain": 3,
+      "movesPerMerge": 2.5,
+      "movesPerChain": 5
+    },
+    "branching": {
+      "avgBranchingFactor": 1.4545454545454546,
+      "maxBranchingFactor": 3,
+      "decisionPointRatio": 0.45454545454545453,
+      "deadEndCount": 2,
+      "deadEndRatio": 0.18181818181818182,
+      "totalStatesExplored": 11,
+      "uniqueStatesReached": 17
+    },
+    "solverResult": {
+      "levelId": 15,
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalStatesExplored": 11,
+      "uniqueStatesReached": 17,
+      "maxDepthReached": 5,
+      "deadEndCount": 2,
+      "maxBranchingFactor": 3,
+      "avgBranchingFactor": 1.4545454545454546,
+      "timeMs": 1,
+      "timedOut": false,
+      "decisionPoints": 5
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 26.7,
+      "tier": "easy",
+      "structuralScore": 10.6,
+      "solutionScore": 21.7,
+      "strategicScore": 42.5
+    }
+  },
+  {
+    "level": {
+      "id": 16,
+      "name": "Narrow Escape",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 7,
+      "totalCapacity": 13,
+      "fillRatio": 0.5384615384615384,
+      "emptySlots": 6,
+      "uniqueValues": [
+        2,
+        4,
+        8
+      ],
+      "valueCount": 3,
+      "capacityVariance": 0.1875,
+      "totalValue": 32,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.14285714285714285,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.8,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 4,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalMerges": 4,
+      "totalChainReactions": 2,
+      "longestChain": 2,
+      "movesPerMerge": 1.25,
+      "movesPerChain": 2.5
+    },
+    "branching": {
+      "avgBranchingFactor": 1.565217391304348,
+      "maxBranchingFactor": 5,
+      "decisionPointRatio": 0.45652173913043476,
+      "deadEndCount": 12,
+      "deadEndRatio": 0.2608695652173913,
+      "totalStatesExplored": 46,
+      "uniqueStatesReached": 73
+    },
+    "solverResult": {
+      "levelId": 16,
+      "solvable": true,
+      "optimalMoves": 5,
+      "totalStatesExplored": 46,
+      "uniqueStatesReached": 73,
+      "maxDepthReached": 5,
+      "deadEndCount": 12,
+      "maxBranchingFactor": 5,
+      "avgBranchingFactor": 1.565217391304348,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 21
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 35.8,
+      "tier": "medium",
+      "structuralScore": 36,
+      "solutionScore": 27.3,
+      "strategicScore": 42.1
+    }
+  },
+  {
+    "level": {
+      "id": 17,
+      "name": "Four Corners",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 7,
+      "totalCapacity": 15,
+      "fillRatio": 0.4666666666666667,
+      "emptySlots": 8,
+      "uniqueValues": [
+        2,
+        4,
+        8
+      ],
+      "valueCount": 3,
+      "capacityVariance": 0.1875,
+      "totalValue": 32,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.14285714285714285,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.8,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 5,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 7,
+      "totalMerges": 4,
+      "totalChainReactions": 2,
+      "longestChain": 2,
+      "movesPerMerge": 1.75,
+      "movesPerChain": 3.5
+    },
+    "branching": {
+      "avgBranchingFactor": 1.1897435897435897,
+      "maxBranchingFactor": 6,
+      "decisionPointRatio": 0.30256410256410254,
+      "deadEndCount": 76,
+      "deadEndRatio": 0.38974358974358975,
+      "totalStatesExplored": 195,
+      "uniqueStatesReached": 233
+    },
+    "solverResult": {
+      "levelId": 17,
+      "solvable": true,
+      "optimalMoves": 7,
+      "totalStatesExplored": 195,
+      "uniqueStatesReached": 233,
+      "maxDepthReached": 7,
+      "deadEndCount": 76,
+      "maxBranchingFactor": 6,
+      "avgBranchingFactor": 1.1897435897435897,
+      "timeMs": 1,
+      "timedOut": false,
+      "decisionPoints": 59
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 34.3,
+      "tier": "easy",
+      "structuralScore": 25.2,
+      "solutionScore": 40.3,
+      "strategicScore": 36.4
+    }
+  },
+  {
+    "level": {
+      "id": 18,
+      "name": "Deep Freeze",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubeCount": 3
+    },
+    "structural": {
+      "tubeCount": 3,
+      "emptyTubeCount": 1,
+      "totalPieces": 5,
+      "totalCapacity": 12,
+      "fillRatio": 0.4166666666666667,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.6666666666666666,
+      "totalValue": 32,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.2,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 3,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 1,
+      "totalMergePairs": 1
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 6,
+      "totalMerges": 3,
+      "totalChainReactions": 1,
+      "longestChain": 2,
+      "movesPerMerge": 2,
+      "movesPerChain": 6
+    },
+    "branching": {
+      "avgBranchingFactor": 1.411764705882353,
+      "maxBranchingFactor": 4,
+      "decisionPointRatio": 0.4117647058823529,
+      "deadEndCount": 4,
+      "deadEndRatio": 0.23529411764705882,
+      "totalStatesExplored": 17,
+      "uniqueStatesReached": 25
+    },
+    "solverResult": {
+      "levelId": 18,
+      "solvable": true,
+      "optimalMoves": 6,
+      "totalStatesExplored": 17,
+      "uniqueStatesReached": 25,
+      "maxDepthReached": 6,
+      "deadEndCount": 4,
+      "maxBranchingFactor": 4,
+      "avgBranchingFactor": 1.411764705882353,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 7
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 30,
+      "tier": "easy",
+      "structuralScore": 15.7,
+      "solutionScore": 26.9,
+      "strategicScore": 42.9
+    }
+  },
+  {
+    "level": {
+      "id": 19,
+      "name": "Cross Traffic",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 7,
+      "totalCapacity": 15,
+      "fillRatio": 0.4666666666666667,
+      "emptySlots": 8,
+      "uniqueValues": [
+        2,
+        4,
+        8
+      ],
+      "valueCount": 3,
+      "capacityVariance": 0.1875,
+      "totalValue": 32,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.14285714285714285,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.8,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 4,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 4,
+      "totalMerges": 2,
+      "totalChainReactions": 2,
+      "longestChain": 3,
+      "movesPerMerge": 2,
+      "movesPerChain": 2
+    },
+    "branching": {
+      "avgBranchingFactor": 1.6842105263157894,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.5,
+      "deadEndCount": 10,
+      "deadEndRatio": 0.2631578947368421,
+      "totalStatesExplored": 38,
+      "uniqueStatesReached": 65
+    },
+    "solverResult": {
+      "levelId": 19,
+      "solvable": true,
+      "optimalMoves": 4,
+      "totalStatesExplored": 38,
+      "uniqueStatesReached": 65,
+      "maxDepthReached": 4,
+      "deadEndCount": 10,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.6842105263157894,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 19
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 32.7,
+      "tier": "easy",
+      "structuralScore": 25.2,
+      "solutionScore": 23,
+      "strategicScore": 45.7
+    }
+  },
+  {
+    "level": {
+      "id": 20,
+      "name": "The Gauntlet",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 7,
+      "totalCapacity": 15,
+      "fillRatio": 0.4666666666666667,
+      "emptySlots": 8,
+      "uniqueValues": [
+        2,
+        4,
+        8
+      ],
+      "valueCount": 3,
+      "capacityVariance": 0.1875,
+      "totalValue": 32,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.14285714285714285,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.4,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 4,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 4,
+      "totalMerges": 4,
+      "totalChainReactions": 1,
+      "longestChain": 3,
+      "movesPerMerge": 1,
+      "movesPerChain": 4
+    },
+    "branching": {
+      "avgBranchingFactor": 1.9259259259259258,
+      "maxBranchingFactor": 6,
+      "decisionPointRatio": 0.48148148148148145,
+      "deadEndCount": 7,
+      "deadEndRatio": 0.25925925925925924,
+      "totalStatesExplored": 27,
+      "uniqueStatesReached": 53
+    },
+    "solverResult": {
+      "levelId": 20,
+      "solvable": true,
+      "optimalMoves": 4,
+      "totalStatesExplored": 27,
+      "uniqueStatesReached": 53,
+      "maxDepthReached": 4,
+      "deadEndCount": 7,
+      "maxBranchingFactor": 6,
+      "avgBranchingFactor": 1.9259259259259258,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 13
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 33.1,
+      "tier": "easy",
+      "structuralScore": 25.2,
+      "solutionScore": 21.6,
+      "strategicScore": 47.7
+    }
+  },
+  {
+    "level": {
+      "id": 21,
+      "name": "Heavy Lifting",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 8,
+      "totalCapacity": 16,
+      "fillRatio": 0.5,
+      "emptySlots": 8,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.5,
+      "totalValue": 64,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.125,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.6,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 4,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 6,
+      "totalMerges": 5,
+      "totalChainReactions": 1,
+      "longestChain": 3,
+      "movesPerMerge": 1.2,
+      "movesPerChain": 6
+    },
+    "branching": {
+      "avgBranchingFactor": 1.394736842105263,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.35526315789473684,
+      "deadEndCount": 27,
+      "deadEndRatio": 0.35526315789473684,
+      "totalStatesExplored": 76,
+      "uniqueStatesReached": 107
+    },
+    "solverResult": {
+      "levelId": 21,
+      "solvable": true,
+      "optimalMoves": 6,
+      "totalStatesExplored": 76,
+      "uniqueStatesReached": 107,
+      "maxDepthReached": 6,
+      "deadEndCount": 27,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.394736842105263,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 27
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 34.8,
+      "tier": "easy",
+      "structuralScore": 30.8,
+      "solutionScore": 32.9,
+      "strategicScore": 39.3
+    }
+  },
+  {
+    "level": {
+      "id": 22,
+      "name": "Locked Vault",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 8,
+      "totalCapacity": 16,
+      "fillRatio": 0.5,
+      "emptySlots": 8,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.5,
+      "totalValue": 64,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.125,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 2.4,
+      "maxBlockingDepth": 4,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 4,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 6,
+      "totalMerges": 3,
+      "totalChainReactions": 2,
+      "longestChain": 3,
+      "movesPerMerge": 2,
+      "movesPerChain": 3
+    },
+    "branching": {
+      "avgBranchingFactor": 1.6777777777777778,
+      "maxBranchingFactor": 6,
+      "decisionPointRatio": 0.4111111111111111,
+      "deadEndCount": 25,
+      "deadEndRatio": 0.2777777777777778,
+      "totalStatesExplored": 90,
+      "uniqueStatesReached": 152
+    },
+    "solverResult": {
+      "levelId": 22,
+      "solvable": true,
+      "optimalMoves": 6,
+      "totalStatesExplored": 90,
+      "uniqueStatesReached": 152,
+      "maxDepthReached": 6,
+      "deadEndCount": 25,
+      "maxBranchingFactor": 6,
+      "avgBranchingFactor": 1.6777777777777778,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 37
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 38.9,
+      "tier": "medium",
+      "structuralScore": 30.8,
+      "solutionScore": 33.6,
+      "strategicScore": 49
+    }
+  },
+  {
+    "level": {
+      "id": 23,
+      "name": "Triple Threat",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 5
+    },
+    "structural": {
+      "tubeCount": 5,
+      "emptyTubeCount": 1,
+      "totalPieces": 12,
+      "totalCapacity": 19,
+      "fillRatio": 0.631578947368421,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.15999999999999998,
+      "totalValue": 64,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.08333333333333333,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.9333333333333333,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 3,
+      "mergePairsBlocked": 12,
+      "totalMergePairs": 15
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 8,
+      "totalMerges": 6,
+      "totalChainReactions": 4,
+      "longestChain": 3,
+      "movesPerMerge": 1.3333333333333333,
+      "movesPerChain": 2
+    },
+    "branching": {
+      "avgBranchingFactor": 1.2121448034254574,
+      "maxBranchingFactor": 11,
+      "decisionPointRatio": 0.2783184118333982,
+      "deadEndCount": 1149,
+      "deadEndRatio": 0.4472557415336707,
+      "totalStatesExplored": 2569,
+      "uniqueStatesReached": 3115
+    },
+    "solverResult": {
+      "levelId": 23,
+      "solvable": true,
+      "optimalMoves": 8,
+      "totalStatesExplored": 2569,
+      "uniqueStatesReached": 3115,
+      "maxDepthReached": 8,
+      "deadEndCount": 1149,
+      "maxBranchingFactor": 11,
+      "avgBranchingFactor": 1.2121448034254574,
+      "timeMs": 17,
+      "timedOut": false,
+      "decisionPoints": 715
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 48,
+      "tier": "medium",
+      "structuralScore": 52.9,
+      "solutionScore": 54.5,
+      "strategicScore": 39.4
+    }
+  },
+  {
+    "level": {
+      "id": 24,
+      "name": "Cascade Chaos",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 9,
+      "totalCapacity": 17,
+      "fillRatio": 0.5294117647058824,
+      "emptySlots": 8,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.6875,
+      "totalValue": 64,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.1111111111111111,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 2.6666666666666665,
+      "maxBlockingDepth": 4,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 6,
+      "totalMergePairs": 6
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 8,
+      "totalMerges": 4,
+      "totalChainReactions": 3,
+      "longestChain": 3,
+      "movesPerMerge": 2,
+      "movesPerChain": 2.6666666666666665
+    },
+    "branching": {
+      "avgBranchingFactor": 1.4181818181818182,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.35909090909090907,
+      "deadEndCount": 147,
+      "deadEndRatio": 0.3340909090909091,
+      "totalStatesExplored": 440,
+      "uniqueStatesReached": 625
+    },
+    "solverResult": {
+      "levelId": 24,
+      "solvable": true,
+      "optimalMoves": 8,
+      "totalStatesExplored": 440,
+      "uniqueStatesReached": 625,
+      "maxDepthReached": 8,
+      "deadEndCount": 147,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.4181818181818182,
+      "timeMs": 1,
+      "timedOut": false,
+      "decisionPoints": 158
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 43.5,
+      "tier": "medium",
+      "structuralScore": 35.7,
+      "solutionScore": 47.3,
+      "strategicScore": 46.4
+    }
+  },
+  {
+    "level": {
+      "id": 25,
+      "name": "Maze Runner",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 8,
+      "totalCapacity": 15,
+      "fillRatio": 0.5333333333333333,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.1875,
+      "totalValue": 64,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.125,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.8,
+      "maxBlockingDepth": 4,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 4,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 6,
+      "totalMerges": 5,
+      "totalChainReactions": 1,
+      "longestChain": 3,
+      "movesPerMerge": 1.2,
+      "movesPerChain": 6
+    },
+    "branching": {
+      "avgBranchingFactor": 1.8767123287671232,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.5342465753424658,
+      "deadEndCount": 16,
+      "deadEndRatio": 0.2191780821917808,
+      "totalStatesExplored": 73,
+      "uniqueStatesReached": 138
+    },
+    "solverResult": {
+      "levelId": 25,
+      "solvable": true,
+      "optimalMoves": 6,
+      "totalStatesExplored": 73,
+      "uniqueStatesReached": 138,
+      "maxDepthReached": 6,
+      "deadEndCount": 16,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.8767123287671232,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 39
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 40.9,
+      "tier": "medium",
+      "structuralScore": 36.1,
+      "solutionScore": 32.8,
+      "strategicScore": 50.5
+    }
+  },
+  {
+    "level": {
+      "id": 26,
+      "name": "Pressure Point",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 8,
+      "totalCapacity": 16,
+      "fillRatio": 0.5,
+      "emptySlots": 8,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.5,
+      "totalValue": 64,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.125,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 2.6,
+      "maxBlockingDepth": 4,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 5,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 6,
+      "totalMerges": 4,
+      "totalChainReactions": 3,
+      "longestChain": 2,
+      "movesPerMerge": 1.5,
+      "movesPerChain": 2
+    },
+    "branching": {
+      "avgBranchingFactor": 1.3902439024390243,
+      "maxBranchingFactor": 8,
+      "decisionPointRatio": 0.3821138211382114,
+      "deadEndCount": 44,
+      "deadEndRatio": 0.35772357723577236,
+      "totalStatesExplored": 123,
+      "uniqueStatesReached": 172
+    },
+    "solverResult": {
+      "levelId": 26,
+      "solvable": true,
+      "optimalMoves": 6,
+      "totalStatesExplored": 123,
+      "uniqueStatesReached": 172,
+      "maxDepthReached": 6,
+      "deadEndCount": 44,
+      "maxBranchingFactor": 8,
+      "avgBranchingFactor": 1.3902439024390243,
+      "timeMs": 1,
+      "timedOut": false,
+      "decisionPoints": 47
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 38.6,
+      "tier": "medium",
+      "structuralScore": 30.8,
+      "solutionScore": 34.9,
+      "strategicScore": 47.1
+    }
+  },
+  {
+    "level": {
+      "id": 27,
+      "name": "Deep Dive",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 8,
+      "totalCapacity": 16,
+      "fillRatio": 0.5,
+      "emptySlots": 8,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.5,
+      "totalValue": 64,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.125,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 2.2,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 5,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 7,
+      "totalMerges": 3,
+      "totalChainReactions": 3,
+      "longestChain": 3,
+      "movesPerMerge": 2.3333333333333335,
+      "movesPerChain": 2.3333333333333335
+    },
+    "branching": {
+      "avgBranchingFactor": 1.532846715328467,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.38686131386861317,
+      "deadEndCount": 47,
+      "deadEndRatio": 0.34306569343065696,
+      "totalStatesExplored": 137,
+      "uniqueStatesReached": 211
+    },
+    "solverResult": {
+      "levelId": 27,
+      "solvable": true,
+      "optimalMoves": 7,
+      "totalStatesExplored": 137,
+      "uniqueStatesReached": 211,
+      "maxDepthReached": 7,
+      "deadEndCount": 47,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.532846715328467,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 53
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 39,
+      "tier": "medium",
+      "structuralScore": 30.8,
+      "solutionScore": 38.9,
+      "strategicScore": 45.3
+    }
+  },
+  {
+    "level": {
+      "id": 28,
+      "name": "Bottleneck",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 5
+    },
+    "structural": {
+      "tubeCount": 5,
+      "emptyTubeCount": 0,
+      "totalPieces": 12,
+      "totalCapacity": 17,
+      "fillRatio": 0.7058823529411765,
+      "emptySlots": 5,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.24,
+      "totalValue": 64,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.08333333333333333,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.4666666666666666,
+      "maxBlockingDepth": 4,
+      "mergePairsAccessible": 6,
+      "mergePairsBlocked": 9,
+      "totalMergePairs": 15
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 7,
+      "totalMerges": 6,
+      "totalChainReactions": 4,
+      "longestChain": 3,
+      "movesPerMerge": 1.1666666666666667,
+      "movesPerChain": 1.75
+    },
+    "branching": {
+      "avgBranchingFactor": 1.4665178571428572,
+      "maxBranchingFactor": 9,
+      "decisionPointRatio": 0.37276785714285715,
+      "deadEndCount": 142,
+      "deadEndRatio": 0.3169642857142857,
+      "totalStatesExplored": 448,
+      "uniqueStatesReached": 658
+    },
+    "solverResult": {
+      "levelId": 28,
+      "solvable": true,
+      "optimalMoves": 7,
+      "totalStatesExplored": 448,
+      "uniqueStatesReached": 658,
+      "maxDepthReached": 7,
+      "deadEndCount": 142,
+      "maxBranchingFactor": 9,
+      "avgBranchingFactor": 1.4665178571428572,
+      "timeMs": 2,
+      "timedOut": false,
+      "decisionPoints": 167
+    },
+    "issues": [
+      "TOO_SHORT",
+      "LINEAR_PATH",
+      "CHAIN_INFLATION",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 48.6,
+      "tier": "medium",
+      "structuralScore": 63.8,
+      "solutionScore": 43.8,
+      "strategicScore": 41
+    }
+  },
+  {
+    "level": {
+      "id": 29,
+      "name": "Five Fingers",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 5
+    },
+    "structural": {
+      "tubeCount": 5,
+      "emptyTubeCount": 0,
+      "totalPieces": 12,
+      "totalCapacity": 19,
+      "fillRatio": 0.631578947368421,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.15999999999999998,
+      "totalValue": 64,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.08333333333333333,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.5333333333333334,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 4,
+      "mergePairsBlocked": 11,
+      "totalMergePairs": 15
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 8,
+      "totalMerges": 6,
+      "totalChainReactions": 3,
+      "longestChain": 3,
+      "movesPerMerge": 1.3333333333333333,
+      "movesPerChain": 2.6666666666666665
+    },
+    "branching": {
+      "avgBranchingFactor": 1.340550293188994,
+      "maxBranchingFactor": 14,
+      "decisionPointRatio": 0.33198015336039693,
+      "deadEndCount": 922,
+      "deadEndRatio": 0.4158773116824538,
+      "totalStatesExplored": 2217,
+      "uniqueStatesReached": 2973
+    },
+    "solverResult": {
+      "levelId": 29,
+      "solvable": true,
+      "optimalMoves": 8,
+      "totalStatesExplored": 2217,
+      "uniqueStatesReached": 2973,
+      "maxDepthReached": 8,
+      "deadEndCount": 922,
+      "maxBranchingFactor": 14,
+      "avgBranchingFactor": 1.340550293188994,
+      "timeMs": 13,
+      "timedOut": false,
+      "decisionPoints": 736
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 48,
+      "tier": "medium",
+      "structuralScore": 52.9,
+      "solutionScore": 53.9,
+      "strategicScore": 39.9
+    }
+  },
+  {
+    "level": {
+      "id": 30,
+      "name": "Narrow Corridor",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 8,
+      "totalCapacity": 13,
+      "fillRatio": 0.6153846153846154,
+      "emptySlots": 5,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32
+      ],
+      "valueCount": 4,
+      "capacityVariance": 0.1875,
+      "totalValue": 64,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.125,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.6,
+      "maxBlockingDepth": 2,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 4,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 7,
+      "totalMerges": 4,
+      "totalChainReactions": 2,
+      "longestChain": 3,
+      "movesPerMerge": 1.75,
+      "movesPerChain": 3.5
+    },
+    "branching": {
+      "avgBranchingFactor": 1.3036649214659686,
+      "maxBranchingFactor": 6,
+      "decisionPointRatio": 0.3507853403141361,
+      "deadEndCount": 70,
+      "deadEndRatio": 0.36649214659685864,
+      "totalStatesExplored": 191,
+      "uniqueStatesReached": 250
+    },
+    "solverResult": {
+      "levelId": 30,
+      "solvable": true,
+      "optimalMoves": 7,
+      "totalStatesExplored": 191,
+      "uniqueStatesReached": 250,
+      "maxDepthReached": 7,
+      "deadEndCount": 70,
+      "maxBranchingFactor": 6,
+      "avgBranchingFactor": 1.3036649214659686,
+      "timeMs": 1,
+      "timedOut": false,
+      "decisionPoints": 67
+    },
+    "issues": [
+      "TOO_SHORT",
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 40.6,
+      "tier": "medium",
+      "structuralScore": 47.3,
+      "solutionScore": 40.3,
+      "strategicScore": 35.7
+    }
+  },
+  {
+    "level": {
+      "id": 31,
+      "name": "Tower Defense",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 5
+    },
+    "structural": {
+      "tubeCount": 5,
+      "emptyTubeCount": 1,
+      "totalPieces": 16,
+      "totalCapacity": 20,
+      "fillRatio": 0.8,
+      "emptySlots": 4,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.4,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.0625,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 3.272727272727273,
+      "maxBlockingDepth": 6,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 21,
+      "totalMergePairs": 22
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalMerges": 8,
+      "totalChainReactions": 4,
+      "longestChain": 3,
+      "movesPerMerge": 1.125,
+      "movesPerChain": 2.25
+    },
+    "branching": {
+      "avgBranchingFactor": 1.7248607057574954,
+      "maxBranchingFactor": 9,
+      "decisionPointRatio": 0.46059962854868663,
+      "deadEndCount": 1067,
+      "deadEndRatio": 0.28309896524276995,
+      "totalStatesExplored": 3769,
+      "uniqueStatesReached": 6502
+    },
+    "solverResult": {
+      "levelId": 31,
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalStatesExplored": 3769,
+      "uniqueStatesReached": 6502,
+      "maxDepthReached": 9,
+      "deadEndCount": 1067,
+      "maxBranchingFactor": 9,
+      "avgBranchingFactor": 1.7248607057574954,
+      "timeMs": 24,
+      "timedOut": false,
+      "decisionPoints": 1736
+    },
+    "issues": [
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 66.4,
+      "tier": "hard",
+      "structuralScore": 81.4,
+      "solutionScore": 59.7,
+      "strategicScore": 60.1
+    }
+  },
+  {
+    "level": {
+      "id": 32,
+      "name": "Minefield",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 6
+    },
+    "structural": {
+      "tubeCount": 6,
+      "emptyTubeCount": 0,
+      "totalPieces": 18,
+      "totalCapacity": 23,
+      "fillRatio": 0.782608695652174,
+      "emptySlots": 5,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.13888888888888887,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.05555555555555555,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 2.0625,
+      "maxBlockingDepth": 5,
+      "mergePairsAccessible": 10,
+      "mergePairsBlocked": 22,
+      "totalMergePairs": 32
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 11,
+      "totalMerges": 10,
+      "totalChainReactions": 6,
+      "longestChain": 3,
+      "movesPerMerge": 1.1,
+      "movesPerChain": 1.8333333333333333
+    },
+    "branching": {
+      "avgBranchingFactor": 1.3103540319549385,
+      "maxBranchingFactor": 18,
+      "decisionPointRatio": 0.3144723295073841,
+      "deadEndCount": 82854,
+      "deadEndRatio": 0.45134580080731707,
+      "totalStatesExplored": 183571,
+      "uniqueStatesReached": 240544
+    },
+    "solverResult": {
+      "levelId": 32,
+      "solvable": true,
+      "optimalMoves": 11,
+      "totalStatesExplored": 183571,
+      "uniqueStatesReached": 240544,
+      "maxDepthReached": 11,
+      "deadEndCount": 82854,
+      "maxBranchingFactor": 18,
+      "avgBranchingFactor": 1.3103540319549385,
+      "timeMs": 1975,
+      "timedOut": false,
+      "decisionPoints": 57728
+    },
+    "issues": [
+      "LINEAR_PATH",
+      "CHAIN_INFLATION"
+    ],
+    "composite": {
+      "compositeScore": 68.1,
+      "tier": "hard",
+      "structuralScore": 81.1,
+      "solutionScore": 82.9,
+      "strategicScore": 47.3
+    }
+  },
+  {
+    "level": {
+      "id": 33,
+      "name": "Deadlock",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 5
+    },
+    "structural": {
+      "tubeCount": 5,
+      "emptyTubeCount": 1,
+      "totalPieces": 16,
+      "totalCapacity": 20,
+      "fillRatio": 0.8,
+      "emptySlots": 4,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.4,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.0625,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 3.409090909090909,
+      "maxBlockingDepth": 7,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 21,
+      "totalMergePairs": 22
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalMerges": 7,
+      "totalChainReactions": 5,
+      "longestChain": 3,
+      "movesPerMerge": 1.2857142857142858,
+      "movesPerChain": 1.8
+    },
+    "branching": {
+      "avgBranchingFactor": 1.6399777075979938,
+      "maxBranchingFactor": 10,
+      "decisionPointRatio": 0.43860300947427083,
+      "deadEndCount": 1494,
+      "deadEndRatio": 0.27754040497863647,
+      "totalStatesExplored": 5383,
+      "uniqueStatesReached": 8829
+    },
+    "solverResult": {
+      "levelId": 33,
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalStatesExplored": 5383,
+      "uniqueStatesReached": 8829,
+      "maxDepthReached": 9,
+      "deadEndCount": 1494,
+      "maxBranchingFactor": 10,
+      "avgBranchingFactor": 1.6399777075979938,
+      "timeMs": 28,
+      "timedOut": false,
+      "decisionPoints": 2361
+    },
+    "issues": [
+      "LINEAR_PATH",
+      "CHAIN_INFLATION",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 66.9,
+      "tier": "hard",
+      "structuralScore": 81.4,
+      "solutionScore": 61.2,
+      "strategicScore": 60.5
+    }
+  },
+  {
+    "level": {
+      "id": 34,
+      "name": "Chain Gang",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 6
+    },
+    "structural": {
+      "tubeCount": 6,
+      "emptyTubeCount": 0,
+      "totalPieces": 19,
+      "totalCapacity": 23,
+      "fillRatio": 0.8260869565217391,
+      "emptySlots": 4,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.13888888888888887,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.05263157894736842,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 2.41025641025641,
+      "maxBlockingDepth": 6,
+      "mergePairsAccessible": 7,
+      "mergePairsBlocked": 32,
+      "totalMergePairs": 39
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 13,
+      "totalMerges": 9,
+      "totalChainReactions": 6,
+      "longestChain": 3,
+      "movesPerMerge": 1.4444444444444444,
+      "movesPerChain": 2.1666666666666665
+    },
+    "branching": {
+      "avgBranchingFactor": 1.2257551929755586,
+      "maxBranchingFactor": 16,
+      "decisionPointRatio": 0.3018096236594369,
+      "deadEndCount": 169602,
+      "deadEndRatio": 0.4630594325404626,
+      "totalStatesExplored": 366264,
+      "uniqueStatesReached": 448951
+    },
+    "solverResult": {
+      "levelId": 34,
+      "solvable": true,
+      "optimalMoves": 13,
+      "totalStatesExplored": 366264,
+      "uniqueStatesReached": 448951,
+      "maxDepthReached": 13,
+      "deadEndCount": 169602,
+      "maxBranchingFactor": 16,
+      "avgBranchingFactor": 1.2257551929755586,
+      "timeMs": 3751,
+      "timedOut": false,
+      "decisionPoints": 110542
+    },
+    "issues": [
+      "LINEAR_PATH"
+    ],
+    "composite": {
+      "compositeScore": 74.4,
+      "tier": "hard",
+      "structuralScore": 88.9,
+      "solutionScore": 92.9,
+      "strategicScore": 49.8
+    }
+  },
+  {
+    "level": {
+      "id": 35,
+      "name": "Switchback",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubeCount": 5
+    },
+    "structural": {
+      "tubeCount": 5,
+      "emptyTubeCount": 1,
+      "totalPieces": 16,
+      "totalCapacity": 20,
+      "fillRatio": 0.8,
+      "emptySlots": 4,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.4,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.0625,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 3.6818181818181817,
+      "maxBlockingDepth": 6,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 22,
+      "totalMergePairs": 22
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 11,
+      "totalMerges": 7,
+      "totalChainReactions": 6,
+      "longestChain": 3,
+      "movesPerMerge": 1.5714285714285714,
+      "movesPerChain": 1.8333333333333333
+    },
+    "branching": {
+      "avgBranchingFactor": 1.4640967498110355,
+      "maxBranchingFactor": 10,
+      "decisionPointRatio": 0.39725731562466254,
+      "deadEndCount": 2801,
+      "deadEndRatio": 0.30245113918583305,
+      "totalStatesExplored": 9261,
+      "uniqueStatesReached": 13560
+    },
+    "solverResult": {
+      "levelId": 35,
+      "solvable": true,
+      "optimalMoves": 11,
+      "totalStatesExplored": 9261,
+      "uniqueStatesReached": 13560,
+      "maxDepthReached": 11,
+      "deadEndCount": 2801,
+      "maxBranchingFactor": 10,
+      "avgBranchingFactor": 1.4640967498110355,
+      "timeMs": 46,
+      "timedOut": false,
+      "decisionPoints": 3679
+    },
+    "issues": [
+      "LINEAR_PATH",
+      "CHAIN_INFLATION",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 68.1,
+      "tier": "hard",
+      "structuralScore": 81.4,
+      "solutionScore": 70.5,
+      "strategicScore": 56.3
+    }
+  },
+  {
+    "level": {
+      "id": 36,
+      "name": "Iron Curtain",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubeCount": 5
+    },
+    "structural": {
+      "tubeCount": 5,
+      "emptyTubeCount": 1,
+      "totalPieces": 13,
+      "totalCapacity": 20,
+      "fillRatio": 0.65,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        64
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.4,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.07692307692307693,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 2.6,
+      "maxBlockingDepth": 5,
+      "mergePairsAccessible": 3,
+      "mergePairsBlocked": 12,
+      "totalMergePairs": 15
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 10,
+      "totalMerges": 8,
+      "totalChainReactions": 3,
+      "longestChain": 3,
+      "movesPerMerge": 1.25,
+      "movesPerChain": 3.3333333333333335
+    },
+    "branching": {
+      "avgBranchingFactor": 1.2939220183486237,
+      "maxBranchingFactor": 13,
+      "decisionPointRatio": 0.31238532110091743,
+      "deadEndCount": 3815,
+      "deadEndRatio": 0.4375,
+      "totalStatesExplored": 8720,
+      "uniqueStatesReached": 11284
+    },
+    "solverResult": {
+      "levelId": 36,
+      "solvable": true,
+      "optimalMoves": 10,
+      "totalStatesExplored": 8720,
+      "uniqueStatesReached": 11284,
+      "maxDepthReached": 10,
+      "deadEndCount": 3815,
+      "maxBranchingFactor": 13,
+      "avgBranchingFactor": 1.2939220183486237,
+      "timeMs": 46,
+      "timedOut": false,
+      "decisionPoints": 2724
+    },
+    "issues": [
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 56.5,
+      "tier": "hard",
+      "structuralScore": 56.3,
+      "solutionScore": 66.7,
+      "strategicScore": 49.1
+    }
+  },
+  {
+    "level": {
+      "id": 37,
+      "name": "Fortress",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubeCount": 5
+    },
+    "structural": {
+      "tubeCount": 5,
+      "emptyTubeCount": 1,
+      "totalPieces": 13,
+      "totalCapacity": 20,
+      "fillRatio": 0.65,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        64
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.4,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.07692307692307693,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 2.7333333333333334,
+      "maxBlockingDepth": 6,
+      "mergePairsAccessible": 3,
+      "mergePairsBlocked": 12,
+      "totalMergePairs": 15
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 10,
+      "totalMerges": 7,
+      "totalChainReactions": 4,
+      "longestChain": 3,
+      "movesPerMerge": 1.4285714285714286,
+      "movesPerChain": 2.5
+    },
+    "branching": {
+      "avgBranchingFactor": 1.2122943964315585,
+      "maxBranchingFactor": 13,
+      "decisionPointRatio": 0.3016448285475328,
+      "deadEndCount": 3089,
+      "deadEndRatio": 0.430582659604126,
+      "totalStatesExplored": 7174,
+      "uniqueStatesReached": 8698
+    },
+    "solverResult": {
+      "levelId": 37,
+      "solvable": true,
+      "optimalMoves": 10,
+      "totalStatesExplored": 7174,
+      "uniqueStatesReached": 8698,
+      "maxDepthReached": 10,
+      "deadEndCount": 3089,
+      "maxBranchingFactor": 13,
+      "avgBranchingFactor": 1.2122943964315585,
+      "timeMs": 39,
+      "timedOut": false,
+      "decisionPoints": 2164
+    },
+    "issues": [
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 56.6,
+      "tier": "hard",
+      "structuralScore": 56.3,
+      "solutionScore": 65.9,
+      "strategicScore": 49.7
+    }
+  },
+  {
+    "level": {
+      "id": 38,
+      "name": "Labyrinth",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 0,
+      "totalPieces": 10,
+      "totalCapacity": 16,
+      "fillRatio": 0.625,
+      "emptySlots": 6,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32,
+        64
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.5,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.1,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.125,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 3,
+      "mergePairsBlocked": 5,
+      "totalMergePairs": 8
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 8,
+      "totalMerges": 4,
+      "totalChainReactions": 3,
+      "longestChain": 3,
+      "movesPerMerge": 2,
+      "movesPerChain": 2.6666666666666665
+    },
+    "branching": {
+      "avgBranchingFactor": 1.3528183716075157,
+      "maxBranchingFactor": 9,
+      "decisionPointRatio": 0.3444676409185804,
+      "deadEndCount": 180,
+      "deadEndRatio": 0.3757828810020877,
+      "totalStatesExplored": 479,
+      "uniqueStatesReached": 649
+    },
+    "solverResult": {
+      "levelId": 38,
+      "solvable": true,
+      "optimalMoves": 8,
+      "totalStatesExplored": 479,
+      "uniqueStatesReached": 649,
+      "maxDepthReached": 8,
+      "deadEndCount": 180,
+      "maxBranchingFactor": 9,
+      "avgBranchingFactor": 1.3528183716075157,
+      "timeMs": 2,
+      "timedOut": false,
+      "decisionPoints": 165
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 44.2,
+      "tier": "medium",
+      "structuralScore": 50.7,
+      "solutionScore": 47.6,
+      "strategicScore": 36.7
+    }
+  },
+  {
+    "level": {
+      "id": 39,
+      "name": "The Abyss",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubeCount": 3
+    },
+    "structural": {
+      "tubeCount": 3,
+      "emptyTubeCount": 1,
+      "totalPieces": 7,
+      "totalCapacity": 14,
+      "fillRatio": 0.5,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "valueCount": 6,
+      "capacityVariance": 0.888888888888889,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.14285714285714285,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 5,
+      "maxBlockingDepth": 5,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 1,
+      "totalMergePairs": 1
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 10,
+      "totalMerges": 3,
+      "totalChainReactions": 2,
+      "longestChain": 3,
+      "movesPerMerge": 3.3333333333333335,
+      "movesPerChain": 5
+    },
+    "branching": {
+      "avgBranchingFactor": 1.22,
+      "maxBranchingFactor": 3,
+      "decisionPointRatio": 0.3,
+      "deadEndCount": 10,
+      "deadEndRatio": 0.2,
+      "totalStatesExplored": 50,
+      "uniqueStatesReached": 62
+    },
+    "solverResult": {
+      "levelId": 39,
+      "solvable": true,
+      "optimalMoves": 10,
+      "totalStatesExplored": 50,
+      "uniqueStatesReached": 62,
+      "maxDepthReached": 10,
+      "deadEndCount": 10,
+      "maxBranchingFactor": 3,
+      "avgBranchingFactor": 1.22,
+      "timeMs": 0,
+      "timedOut": false,
+      "decisionPoints": 15
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 42.4,
+      "tier": "medium",
+      "structuralScore": 30.5,
+      "solutionScore": 45.5,
+      "strategicScore": 49
+    }
+  },
+  {
+    "level": {
+      "id": 40,
+      "name": "Crucible",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 9,
+      "totalCapacity": 16,
+      "fillRatio": 0.5625,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32,
+        64
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.5,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.1111111111111111,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 3,
+      "maxBlockingDepth": 5,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 5,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalMerges": 5,
+      "totalChainReactions": 2,
+      "longestChain": 3,
+      "movesPerMerge": 1.8,
+      "movesPerChain": 4.5
+    },
+    "branching": {
+      "avgBranchingFactor": 1.279683377308707,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.3087071240105541,
+      "deadEndCount": 145,
+      "deadEndRatio": 0.38258575197889183,
+      "totalStatesExplored": 379,
+      "uniqueStatesReached": 486
+    },
+    "solverResult": {
+      "levelId": 40,
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalStatesExplored": 379,
+      "uniqueStatesReached": 486,
+      "maxDepthReached": 9,
+      "deadEndCount": 145,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.279683377308707,
+      "timeMs": 1,
+      "timedOut": false,
+      "decisionPoints": 117
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 46.7,
+      "tier": "medium",
+      "structuralScore": 41,
+      "solutionScore": 50.2,
+      "strategicScore": 48.3
+    }
+  },
+  {
+    "level": {
+      "id": 41,
+      "name": "Chaos Theory",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 9,
+      "totalCapacity": 16,
+      "fillRatio": 0.5625,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32,
+        64
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.5,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.1111111111111111,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 2.6,
+      "maxBlockingDepth": 4,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 5,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 10,
+      "totalMerges": 5,
+      "totalChainReactions": 3,
+      "longestChain": 2,
+      "movesPerMerge": 2,
+      "movesPerChain": 3.3333333333333335
+    },
+    "branching": {
+      "avgBranchingFactor": 1.305263157894737,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.3293233082706767,
+      "deadEndCount": 248,
+      "deadEndRatio": 0.37293233082706767,
+      "totalStatesExplored": 665,
+      "uniqueStatesReached": 869
+    },
+    "solverResult": {
+      "levelId": 41,
+      "solvable": true,
+      "optimalMoves": 10,
+      "totalStatesExplored": 665,
+      "uniqueStatesReached": 869,
+      "maxDepthReached": 10,
+      "deadEndCount": 248,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.305263157894737,
+      "timeMs": 1,
+      "timedOut": false,
+      "decisionPoints": 219
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 47,
+      "tier": "medium",
+      "structuralScore": 41,
+      "solutionScore": 56.1,
+      "strategicScore": 44.8
+    }
+  },
+  {
+    "level": {
+      "id": 42,
+      "name": "Six Deep",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 9,
+      "totalCapacity": 16,
+      "fillRatio": 0.5625,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32,
+        64
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.5,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.1111111111111111,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 2.6,
+      "maxBlockingDepth": 4,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 5,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 10,
+      "totalMerges": 6,
+      "totalChainReactions": 2,
+      "longestChain": 2,
+      "movesPerMerge": 1.6666666666666667,
+      "movesPerChain": 5
+    },
+    "branching": {
+      "avgBranchingFactor": 1.166883963494133,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.3116036505867014,
+      "deadEndCount": 315,
+      "deadEndRatio": 0.4106910039113429,
+      "totalStatesExplored": 767,
+      "uniqueStatesReached": 896
+    },
+    "solverResult": {
+      "levelId": 42,
+      "solvable": true,
+      "optimalMoves": 10,
+      "totalStatesExplored": 767,
+      "uniqueStatesReached": 896,
+      "maxDepthReached": 10,
+      "deadEndCount": 315,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.166883963494133,
+      "timeMs": 2,
+      "timedOut": false,
+      "decisionPoints": 239
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 46.6,
+      "tier": "medium",
+      "structuralScore": 41,
+      "solutionScore": 56.7,
+      "strategicScore": 43.3
+    }
+  },
+  {
+    "level": {
+      "id": 43,
+      "name": "Pressure Cooker",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubeCount": 5
+    },
+    "structural": {
+      "tubeCount": 5,
+      "emptyTubeCount": 1,
+      "totalPieces": 10,
+      "totalCapacity": 18,
+      "fillRatio": 0.5555555555555556,
+      "emptySlots": 8,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32,
+        64
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.24,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.1,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 1.375,
+      "maxBlockingDepth": 3,
+      "mergePairsAccessible": 3,
+      "mergePairsBlocked": 5,
+      "totalMergePairs": 8
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalMerges": 5,
+      "totalChainReactions": 3,
+      "longestChain": 3,
+      "movesPerMerge": 1.8,
+      "movesPerChain": 3
+    },
+    "branching": {
+      "avgBranchingFactor": 1.3272289156626507,
+      "maxBranchingFactor": 10,
+      "decisionPointRatio": 0.3272289156626506,
+      "deadEndCount": 856,
+      "deadEndRatio": 0.4125301204819277,
+      "totalStatesExplored": 2075,
+      "uniqueStatesReached": 2755
+    },
+    "solverResult": {
+      "levelId": 43,
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalStatesExplored": 2075,
+      "uniqueStatesReached": 2755,
+      "maxDepthReached": 9,
+      "deadEndCount": 856,
+      "maxBranchingFactor": 10,
+      "avgBranchingFactor": 1.3272289156626507,
+      "timeMs": 10,
+      "timedOut": false,
+      "decisionPoints": 679
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 44.6,
+      "tier": "medium",
+      "structuralScore": 40.1,
+      "solutionScore": 57.2,
+      "strategicScore": 38.6
+    }
+  },
+  {
+    "level": {
+      "id": 44,
+      "name": "Gridlock",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 9,
+      "totalCapacity": 16,
+      "fillRatio": 0.5625,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32,
+        64
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.5,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.1111111111111111,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 2.8,
+      "maxBlockingDepth": 5,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 5,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalMerges": 6,
+      "totalChainReactions": 2,
+      "longestChain": 2,
+      "movesPerMerge": 1.5,
+      "movesPerChain": 4.5
+    },
+    "branching": {
+      "avgBranchingFactor": 1.31340206185567,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.3237113402061856,
+      "deadEndCount": 182,
+      "deadEndRatio": 0.3752577319587629,
+      "totalStatesExplored": 485,
+      "uniqueStatesReached": 638
+    },
+    "solverResult": {
+      "levelId": 44,
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalStatesExplored": 485,
+      "uniqueStatesReached": 638,
+      "maxDepthReached": 9,
+      "deadEndCount": 182,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.31340206185567,
+      "timeMs": 1,
+      "timedOut": false,
+      "decisionPoints": 157
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 46.9,
+      "tier": "medium",
+      "structuralScore": 41,
+      "solutionScore": 51.2,
+      "strategicScore": 48
+    }
+  },
+  {
+    "level": {
+      "id": 45,
+      "name": "The Inferno",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 9,
+      "totalCapacity": 16,
+      "fillRatio": 0.5625,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        32,
+        64
+      ],
+      "valueCount": 5,
+      "capacityVariance": 0.5,
+      "totalValue": 128,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.1111111111111111,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 3.2,
+      "maxBlockingDepth": 5,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 5,
+      "totalMergePairs": 5
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalMerges": 4,
+      "totalChainReactions": 3,
+      "longestChain": 3,
+      "movesPerMerge": 2.25,
+      "movesPerChain": 3
+    },
+    "branching": {
+      "avgBranchingFactor": 1.347457627118644,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.3418079096045198,
+      "deadEndCount": 133,
+      "deadEndRatio": 0.3757062146892655,
+      "totalStatesExplored": 354,
+      "uniqueStatesReached": 478
+    },
+    "solverResult": {
+      "levelId": 45,
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalStatesExplored": 354,
+      "uniqueStatesReached": 478,
+      "maxDepthReached": 9,
+      "deadEndCount": 133,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.347457627118644,
+      "timeMs": 1,
+      "timedOut": false,
+      "decisionPoints": 121
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 47.7,
+      "tier": "medium",
+      "structuralScore": 41,
+      "solutionScore": 49.9,
+      "strategicScore": 51.2
+    }
+  },
+  {
+    "level": {
+      "id": 46,
+      "name": "Master Class",
+      "difficulty": "Master",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 12,
+      "totalCapacity": 19,
+      "fillRatio": 0.631578947368421,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        32,
+        128
+      ],
+      "valueCount": 6,
+      "capacityVariance": 0.6875,
+      "totalValue": 256,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.08333333333333333,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 4,
+      "maxBlockingDepth": 6,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 7,
+      "totalMergePairs": 7
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 15,
+      "totalMerges": 6,
+      "totalChainReactions": 4,
+      "longestChain": 3,
+      "movesPerMerge": 2.5,
+      "movesPerChain": 3.75
+    },
+    "branching": {
+      "avgBranchingFactor": 1.238534715320176,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.3224478205310237,
+      "deadEndCount": 2743,
+      "deadEndRatio": 0.3894647167400256,
+      "totalStatesExplored": 7043,
+      "uniqueStatesReached": 8724
+    },
+    "solverResult": {
+      "levelId": 46,
+      "solvable": true,
+      "optimalMoves": 15,
+      "totalStatesExplored": 7043,
+      "uniqueStatesReached": 8724,
+      "maxDepthReached": 15,
+      "deadEndCount": 2743,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.238534715320176,
+      "timeMs": 21,
+      "timedOut": false,
+      "decisionPoints": 2271
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 63.1,
+      "tier": "hard",
+      "structuralScore": 52.9,
+      "solutionScore": 83.7,
+      "strategicScore": 55.3
+    }
+  },
+  {
+    "level": {
+      "id": 47,
+      "name": "Endgame",
+      "difficulty": "Master",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 12,
+      "totalCapacity": 19,
+      "fillRatio": 0.631578947368421,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        32,
+        128
+      ],
+      "valueCount": 6,
+      "capacityVariance": 0.6875,
+      "totalValue": 256,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.08333333333333333,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 4.285714285714286,
+      "maxBlockingDepth": 7,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 7,
+      "totalMergePairs": 7
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 14,
+      "totalMerges": 7,
+      "totalChainReactions": 3,
+      "longestChain": 3,
+      "movesPerMerge": 2,
+      "movesPerChain": 4.666666666666667
+    },
+    "branching": {
+      "avgBranchingFactor": 1.368364264134657,
+      "maxBranchingFactor": 8,
+      "decisionPointRatio": 0.3364264134656884,
+      "deadEndCount": 1677,
+      "deadEndRatio": 0.36189037548554165,
+      "totalStatesExplored": 4634,
+      "uniqueStatesReached": 6342
+    },
+    "solverResult": {
+      "levelId": 47,
+      "solvable": true,
+      "optimalMoves": 14,
+      "totalStatesExplored": 4634,
+      "uniqueStatesReached": 6342,
+      "maxDepthReached": 14,
+      "deadEndCount": 1677,
+      "maxBranchingFactor": 8,
+      "avgBranchingFactor": 1.368364264134657,
+      "timeMs": 14,
+      "timedOut": false,
+      "decisionPoints": 1559
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 63.6,
+      "tier": "hard",
+      "structuralScore": 52.9,
+      "solutionScore": 78.4,
+      "strategicScore": 60.6
+    }
+  },
+  {
+    "level": {
+      "id": 48,
+      "name": "Trial by Fire",
+      "difficulty": "Master",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 12,
+      "totalCapacity": 19,
+      "fillRatio": 0.631578947368421,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        32,
+        128
+      ],
+      "valueCount": 6,
+      "capacityVariance": 0.6875,
+      "totalValue": 256,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.08333333333333333,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 4,
+      "maxBlockingDepth": 7,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 7,
+      "totalMergePairs": 7
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 13,
+      "totalMerges": 8,
+      "totalChainReactions": 2,
+      "longestChain": 3,
+      "movesPerMerge": 1.625,
+      "movesPerChain": 6.5
+    },
+    "branching": {
+      "avgBranchingFactor": 1.2264779350541215,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.3427699139605884,
+      "deadEndCount": 2895,
+      "deadEndRatio": 0.40174854288093254,
+      "totalStatesExplored": 7206,
+      "uniqueStatesReached": 8839
+    },
+    "solverResult": {
+      "levelId": 48,
+      "solvable": true,
+      "optimalMoves": 13,
+      "totalStatesExplored": 7206,
+      "uniqueStatesReached": 8839,
+      "maxDepthReached": 13,
+      "deadEndCount": 2895,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.2264779350541215,
+      "timeMs": 23,
+      "timedOut": false,
+      "decisionPoints": 2470
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 62.2,
+      "tier": "hard",
+      "structuralScore": 52.9,
+      "solutionScore": 76.6,
+      "strategicScore": 58.3
+    }
+  },
+  {
+    "level": {
+      "id": 49,
+      "name": "Nightmare",
+      "difficulty": "Master",
+      "targetPieceCount": 1,
+      "tubeCount": 4
+    },
+    "structural": {
+      "tubeCount": 4,
+      "emptyTubeCount": 1,
+      "totalPieces": 12,
+      "totalCapacity": 19,
+      "fillRatio": 0.631578947368421,
+      "emptySlots": 7,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        32,
+        128
+      ],
+      "valueCount": 6,
+      "capacityVariance": 0.6875,
+      "totalValue": 256,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.08333333333333333,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 4.142857142857143,
+      "maxBlockingDepth": 7,
+      "mergePairsAccessible": 0,
+      "mergePairsBlocked": 7,
+      "totalMergePairs": 7
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalMerges": 5,
+      "totalChainReactions": 4,
+      "longestChain": 3,
+      "movesPerMerge": 1.8,
+      "movesPerChain": 2.25
+    },
+    "branching": {
+      "avgBranchingFactor": 1.8653637350705754,
+      "maxBranchingFactor": 7,
+      "decisionPointRatio": 0.5407166123778502,
+      "deadEndCount": 183,
+      "deadEndRatio": 0.1986970684039088,
+      "totalStatesExplored": 921,
+      "uniqueStatesReached": 1719
+    },
+    "solverResult": {
+      "levelId": 49,
+      "solvable": true,
+      "optimalMoves": 9,
+      "totalStatesExplored": 921,
+      "uniqueStatesReached": 1719,
+      "maxDepthReached": 9,
+      "deadEndCount": 183,
+      "maxBranchingFactor": 7,
+      "avgBranchingFactor": 1.8653637350705754,
+      "timeMs": 2,
+      "timedOut": false,
+      "decisionPoints": 498
+    },
+    "issues": [
+      "TOO_EMPTY",
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 59.1,
+      "tier": "hard",
+      "structuralScore": 52.9,
+      "solutionScore": 53.9,
+      "strategicScore": 67.7
+    }
+  },
+  {
+    "level": {
+      "id": 50,
+      "name": "Final Boss",
+      "difficulty": "Grandmaster",
+      "targetPieceCount": 1,
+      "tubeCount": 5
+    },
+    "structural": {
+      "tubeCount": 5,
+      "emptyTubeCount": 1,
+      "totalPieces": 15,
+      "totalCapacity": 23,
+      "fillRatio": 0.6521739130434783,
+      "emptySlots": 8,
+      "uniqueValues": [
+        2,
+        4,
+        8,
+        16,
+        32,
+        128
+      ],
+      "valueCount": 6,
+      "capacityVariance": 1.0399999999999998,
+      "totalValue": 256,
+      "theoreticalMin": 1,
+      "reductionRatio": 0.06666666666666667,
+      "targetPieceCount": 1
+    },
+    "blocking": {
+      "avgBlockingDepth": 3.25,
+      "maxBlockingDepth": 6,
+      "mergePairsAccessible": 1,
+      "mergePairsBlocked": 15,
+      "totalMergePairs": 16
+    },
+    "solution": {
+      "solvable": true,
+      "optimalMoves": 13,
+      "totalMerges": 9,
+      "totalChainReactions": 4,
+      "longestChain": 3,
+      "movesPerMerge": 1.4444444444444444,
+      "movesPerChain": 3.25
+    },
+    "branching": {
+      "avgBranchingFactor": 1.2651286907118877,
+      "maxBranchingFactor": 11,
+      "decisionPointRatio": 0.3125878740925655,
+      "deadEndCount": 29873,
+      "deadEndRatio": 0.4285816762790164,
+      "totalStatesExplored": 69702,
+      "uniqueStatesReached": 88183
+    },
+    "solverResult": {
+      "levelId": 50,
+      "solvable": true,
+      "optimalMoves": 13,
+      "totalStatesExplored": 69702,
+      "uniqueStatesReached": 88183,
+      "maxDepthReached": 13,
+      "deadEndCount": 29873,
+      "maxBranchingFactor": 11,
+      "avgBranchingFactor": 1.2651286907118877,
+      "timeMs": 426,
+      "timedOut": false,
+      "decisionPoints": 21788
+    },
+    "issues": [
+      "LINEAR_PATH",
+      "FEW_TUBES"
+    ],
+    "composite": {
+      "compositeScore": 64.5,
+      "tier": "hard",
+      "structuralScore": 57.5,
+      "solutionScore": 86,
+      "strategicScore": 53.5
+    }
+  }
+]

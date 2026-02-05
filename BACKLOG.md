@@ -37,3 +37,51 @@ Tüm commit'lerin kronolojik kaydı.
 - `BACKLOG.md` oluşturuldu: her commit sonrası kronolojik değişiklik kaydı
 - `HISTORY.md` oluşturuldu: context compaction sırasında konuşma hafızası kaydı
 - `CLAUDE.md` güncellendi: hafıza yönetimi kuralları ve güncel proje durumu eklendi
+
+---
+
+## Commit #4 — `238a010` — Update BACKLOG.md with commit #3 entry
+
+- BACKLOG.md'ye commit #3 bilgileri eklendi
+
+---
+
+## Commit #5 — `PENDING` — Redesign levels 10-50, add difficulty analyzer
+
+### Level Redesign (levels.json):
+- Level 10-50 tamamen yeniden tasarlandı:
+  - Chaotic piece placement, blocking structures, trap moves
+  - Progressive difficulty (Medium → Hard → Expert → Master → Grandmaster)
+  - Tüm level'lar target=1 (toplam = 2'nin kuvveti)
+- Level 14: gereksiz boş tube kaldırıldı (4 → 3 tube)
+- Row layout kuralı: sadece 6+ tube olan level'larda 2 satır
+  - Sadece level 32 ve 34 `row` field'ları koruyor
+  - Diğer tüm level'lardan `row` kaldırıldı
+
+### Difficulty Analyzer (yeni):
+- `tools/solver.js`: BFS solver
+  - Mevcut editor solver'daki bug düzeltildi (canMove'da value ≤ target top kuralı eksikti)
+  - Permutation-invariant state hashing (tube sırası önemsiz)
+  - Empty tube equivalence pruning
+  - Solution path tracking (parent pointers ile)
+  - Solution verification (replay)
+  - Timeout: 60s / 1M state
+- `tools/analyzer.js`: Metrik hesaplama
+  - Structural: fillRatio, capacityVariance, emptySlots, vs.
+  - Blocking: avgBlockingDepth, mergePairsAccessible/Blocked
+  - Solution: optimalMoves, totalMerges, chainReactions
+  - Branching: avgBranchingFactor, deadEndRatio, decisionPointRatio
+  - Composite score (0-100) two-pass min-max normalization ile
+  - Issue detection (TOO_SHORT, TOO_EMPTY, LINEAR_PATH, vs.)
+- `tools/analyze-all.js`: CLI runner
+  - `node tools/analyze-all.js` (tüm 50 level)
+  - `node tools/analyze-all.js --level N` (tek level)
+  - Output: analysis/level-report.json, analysis/level-report.md, analysis/summary.md
+
+### Analiz Sonuçları:
+- 50/50 level çözülebilir
+- Ortalama optimal moves: 7.6
+- Ortalama fill ratio: 61%
+- En yaygın sorunlar: FEW_TUBES (48), LINEAR_PATH (48), TOO_EMPTY (32), TOO_SHORT (25)
+- Zorluk eğrisi: flat/mixed — iyileştirme gerekiyor
+- 15 outlier (label vs computed tier uyuşmazlığı)
