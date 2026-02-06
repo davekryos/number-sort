@@ -1,6 +1,6 @@
 // HUD.tsx - Score, piece count, level info, restart butonu
 
-import { useState, useRef, useCallback } from 'react';
+import { useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { DifficultyGroup } from '../engine/types';
 import { getDifficultyColor, TOTAL_LEVELS } from '../data/levels';
@@ -28,29 +28,9 @@ export const HUD = ({
   onRestart,
   onOpenLevelSelect,
 }: HUDProps) => {
-  const [clickCount, setClickCount] = useState(0);
-  const clickTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-
   const handleLevelClick = useCallback(() => {
-    // Clear previous timeout
-    if (clickTimeoutRef.current) {
-      clearTimeout(clickTimeoutRef.current);
-    }
-
-    const newCount = clickCount + 1;
-    setClickCount(newCount);
-
-    if (newCount >= 4) {
-      // Open level select
-      setClickCount(0);
-      onOpenLevelSelect?.();
-    } else {
-      // Reset after 1 second of no clicks
-      clickTimeoutRef.current = setTimeout(() => {
-        setClickCount(0);
-      }, 1000);
-    }
-  }, [clickCount, onOpenLevelSelect]);
+    onOpenLevelSelect?.();
+  }, [onOpenLevelSelect]);
   // Calculate progress (assuming initial pieces around 8-20)
   const initialPieces = Math.max(currentPieces, targetPieces + 5);
   const progress = Math.max(0, Math.min(100, ((initialPieces - currentPieces) / (initialPieces - targetPieces)) * 100));
@@ -82,12 +62,6 @@ export const HUD = ({
           {difficulty}
         </span>
 
-        {/* Click indicator */}
-        {clickCount > 0 && (
-          <span className="text-slate-600 text-xs">
-            {clickCount}/4
-          </span>
-        )}
       </button>
 
       {/* Level name */}
