@@ -3,7 +3,7 @@ import { Game } from './components/Game';
 function App() {
   return (
     <div
-      className="min-h-screen flex items-center justify-center"
+      className="h-full flex flex-col"
       style={{
         background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)',
       }}

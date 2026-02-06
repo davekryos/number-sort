@@ -445,7 +445,16 @@ export const Game = () => {
   const isLastLevel = isTestMode || currentLevelIndex === TOTAL_LEVELS - 1;
 
   return (
-    <div className="flex flex-col items-center h-full w-full py-4 px-4">
+    <div
+      className="flex flex-col items-center h-full w-full"
+      style={{
+        paddingTop: 'max(env(safe-area-inset-top, 0px), 8px)',
+        paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 8px)',
+        paddingLeft: 'max(env(safe-area-inset-left, 0px), 16px)',
+        paddingRight: 'max(env(safe-area-inset-right, 0px), 16px)',
+        boxSizing: 'border-box',
+      }}
+    >
       {/* Test mode indicator */}
       {isTestMode && (
         <div className="fixed top-4 left-4 bg-yellow-600 text-white px-3 py-1 rounded text-sm font-medium z-50">

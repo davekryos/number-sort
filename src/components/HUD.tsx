@@ -39,7 +39,7 @@ export const HUD = ({
   const difficultyColor = getDifficultyColor(difficulty);
 
   return (
-    <div className="flex flex-col items-center gap-3 mb-4 w-full max-w-md px-4">
+    <div className="flex flex-col items-center gap-2 mb-2 w-full max-w-md px-4">
       {/* Level header - clickable for level select */}
       <button
         onClick={handleLevelClick}
