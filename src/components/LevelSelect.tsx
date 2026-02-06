@@ -19,7 +19,11 @@ const difficultyGroups: { name: DifficultyGroup; range: [number, number] }[] = [
   { name: 'Expert', range: [31, 40] },
   { name: 'Master', range: [41, 45] },
   { name: 'Grandmaster', range: [46, 50] },
-]; // v3.0 - all levels mathematically verified
+  { name: 'Medium', range: [51, 60] },
+  { name: 'Hard', range: [61, 70] },
+  { name: 'Expert', range: [71, 80] },
+  { name: 'Grandmaster', range: [81, 90] },
+];
 
 export const LevelSelect = ({
   isVisible,
