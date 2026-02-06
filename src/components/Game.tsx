@@ -445,7 +445,7 @@ export const Game = () => {
   const isLastLevel = isTestMode || currentLevelIndex === TOTAL_LEVELS - 1;
 
   return (
-    <div className="flex flex-col items-center justify-center h-full w-full py-4 px-4 overflow-hidden">
+    <div className="flex flex-col items-center h-full w-full py-4 px-4">
       {/* Test mode indicator */}
       {isTestMode && (
         <div className="fixed top-4 left-4 bg-yellow-600 text-white px-3 py-1 rounded text-sm font-medium z-50">
@@ -467,7 +467,7 @@ export const Game = () => {
       />
 
       {/* Board container */}
-      <div className="flex-1 flex items-center justify-center">
+      <div className="flex-1 flex items-center justify-center min-h-0 w-full overflow-y-auto">
         <AnimatePresence mode="wait">
           <motion.div
             key={boardKey}
