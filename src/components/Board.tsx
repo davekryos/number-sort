@@ -58,15 +58,36 @@ export const Board = ({
     const top: TubeWithRow[] = [];
     const bottom: TubeWithRow[] = [];
 
-    tubes.forEach((tube, index) => {
-      const config = tubeConfigs[index];
-      const row = config?.row || 'top';
-      if (row === 'bottom') {
-        bottom.push({ tube, row });
-      } else {
-        top.push({ tube, row });
-      }
-    });
+    // Check if any tube has an explicit row assignment
+    const hasExplicitRows = tubeConfigs.some(c => c.row === 'bottom');
+
+    if (hasExplicitRows) {
+      // Use explicit row assignments from level config
+      tubes.forEach((tube, index) => {
+        const config = tubeConfigs[index];
+        const row = config?.row || 'top';
+        if (row === 'bottom') {
+          bottom.push({ tube, row });
+        } else {
+          top.push({ tube, row });
+        }
+      });
+    } else if (tubes.length >= 6) {
+      // Auto-split: first half top, second half bottom
+      const splitAt = Math.ceil(tubes.length / 2);
+      tubes.forEach((tube, index) => {
+        if (index < splitAt) {
+          top.push({ tube, row: 'top' });
+        } else {
+          bottom.push({ tube, row: 'bottom' });
+        }
+      });
+    } else {
+      // 5 or fewer tubes: single row
+      tubes.forEach((tube) => {
+        top.push({ tube, row: 'top' });
+      });
+    }
 
     return { topRowTubes: top, bottomRowTubes: bottom };
   }, [tubes, tubeConfigs]);

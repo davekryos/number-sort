@@ -60,6 +60,9 @@ export const Tube = ({
       data-tube-id={tube.id}
       style={{
         width: tubeWidth,
+        // Reserve space above tube for lifted piece to be visible
+        paddingTop: GAME_CONSTANTS.PIECE_HEIGHT,
+        marginTop: -GAME_CONSTANTS.PIECE_HEIGHT,
       }}
       onClick={() => onClick(tube.id)}
       animate={shakeAnimation}
@@ -81,7 +84,7 @@ export const Tube = ({
         style={{
           height: tubeHeight,
           gap: GAME_CONSTANTS.PIECE_GAP,
-          overflow: 'hidden', // Prevent scale animations from affecting size
+          overflow: 'visible',
           background: isSelected
             ? 'linear-gradient(180deg, #475569 0%, #334155 100%)'
             : 'linear-gradient(180deg, #334155 0%, #1e293b 100%)',
