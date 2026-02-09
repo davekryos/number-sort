@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { sdk } from '@farcaster/miniapp-sdk'
 import './index.css'
 import App from './App.tsx'
 import { EditorPage } from './editor/EditorPage.tsx'
@@ -18,3 +19,7 @@ createRoot(document.getElementById('root')!).render(
     </BrowserRouter>
   </StrictMode>,
 )
+
+void sdk.actions.ready().catch(() => {
+  // Ignore when app is opened outside Mini App clients.
+})

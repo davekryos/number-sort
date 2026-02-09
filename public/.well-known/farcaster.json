@@ -1,0 +1,34 @@
+{
+  "accountAssociation": {
+    "header": "REPLACE_WITH_SIGNED_HEADER",
+    "payload": "REPLACE_WITH_SIGNED_PAYLOAD",
+    "signature": "REPLACE_WITH_SIGNED_SIGNATURE"
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Number Sort",
+    "subtitle": "Merge and sort numbers",
+    "description": "Solve number-sorting puzzles by merging pieces and planning each move.",
+    "tagline": "Merge. Plan. Clear the board.",
+    "iconUrl": "https://YOUR_DOMAIN/vite.svg",
+    "homeUrl": "https://YOUR_DOMAIN",
+    "heroImageUrl": "https://YOUR_DOMAIN/miniapp-cover.svg",
+    "splashImageUrl": "https://YOUR_DOMAIN/miniapp-splash.svg",
+    "splashBackgroundColor": "#0f172a",
+    "webhookUrl": "https://YOUR_DOMAIN/api/webhook",
+    "primaryCategory": "games",
+    "tags": ["puzzle", "numbers", "strategy"],
+    "screenshotUrls": [
+      "https://YOUR_DOMAIN/miniapp-cover.svg"
+    ],
+    "buttonTitle": "Play",
+    "ogTitle": "Number Sort",
+    "ogDescription": "Solve number-sorting puzzles in your feed.",
+    "ogImageUrl": "https://YOUR_DOMAIN/miniapp-cover.svg"
+  },
+  "baseBuilder": {
+    "allowedAddresses": [
+      "0xREPLACE_WITH_YOUR_BASE_WALLET"
+    ]
+  }
+}
