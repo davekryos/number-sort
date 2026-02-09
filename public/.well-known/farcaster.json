@@ -10,21 +10,21 @@
     "subtitle": "Merge and sort numbers",
     "description": "Solve number-sorting puzzles by merging pieces and planning each move.",
     "tagline": "Merge. Plan. Clear the board.",
-    "iconUrl": "https://number-sort-v.vercel.app/vite.svg",
-    "homeUrl": "https://number-sort-v.vercel.app",
-    "heroImageUrl": "https://number-sort-v.vercel.app/miniapp-cover.svg",
-    "splashImageUrl": "https://number-sort-v.vercel.app/miniapp-splash.svg",
+    "iconUrl": "https://number-sort-self.vercel.app/vite.svg",
+    "homeUrl": "https://number-sort-self.vercel.app",
+    "heroImageUrl": "https://number-sort-self.vercel.app/miniapp-cover.svg",
+    "splashImageUrl": "https://number-sort-self.vercel.app/miniapp-splash.svg",
     "splashBackgroundColor": "#0f172a",
-    "webhookUrl": "https://number-sort-v.vercel.app/api/webhook",
+    "webhookUrl": "https://number-sort-self.vercel.app/api/webhook",
     "primaryCategory": "games",
     "tags": ["puzzle", "numbers", "strategy"],
     "screenshotUrls": [
-      "https://number-sort-v.vercel.app/miniapp-cover.svg"
+      "https://number-sort-self.vercel.app/miniapp-cover.svg"
     ],
     "buttonTitle": "Play",
     "ogTitle": "Number Sort",
     "ogDescription": "Solve number-sorting puzzles in your feed.",
-    "ogImageUrl": "https://number-sort-v.vercel.app/miniapp-cover.svg"
+    "ogImageUrl": "https://number-sort-self.vercel.app/miniapp-cover.svg"
   },
   "baseBuilder": {
     "allowedAddresses": [
