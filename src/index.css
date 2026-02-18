@@ -1,30 +1,37 @@
 @import "tailwindcss";
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --bg-deep: #020817;
+  --text-main: #eff6ff;
+  --text-soft: #b5d5ea;
+  --accent-cyan: #67e8f9;
+  --accent-mint: #6ee7b7;
+  --accent-pink: #f0abfc;
+  font-family: "Sora", "Space Grotesk", "Segoe UI", sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  color: var(--text-main);
+  background-color: var(--bg-deep);
 }
 
-html {
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
   margin: 0;
-  padding: 0;
-  min-width: 320px;
-  height: 100vh;
-  height: 100dvh;
-  overflow: hidden;
-  background-color: #0f172a;
+  min-height: 100%;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  min-width: 320px;
-  height: 100%;
-  overflow: hidden;
-  background-color: #0f172a;
+  background: var(--bg-deep);
+  color: var(--text-main);
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
 }
 
-#root {
-  height: 100%;
+input::placeholder {
+  color: rgba(224, 242, 254, 0.45);
 }
